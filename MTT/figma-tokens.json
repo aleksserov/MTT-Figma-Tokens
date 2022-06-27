@@ -1,38 +1,74 @@
 {
     "borderRadius": {
-        "checkboxBorderRadius":             { "value": "2", "type": "borderRadius", "description": "Чекбокс (Скругления)" },
-        "tabBorderRadius":                  { "value": "6", "type": "borderRadius", "description": "Переключатели (Скругления)" },
-        "inputBorderRadius":                { "value": "6", "type": "borderRadius", "description": "Инпуты (Скругления)" },
-        "btnBorderRadius":                  { "value": "6", "type": "borderRadius", "description": "Кнопки (Скругления)" },
-        "sidebarItemBorderRadius":          { "value": "6", "type": "borderRadius", "description": "Выделение пункта в боковом меню (Скругления)" },
-        "musicBorderRadius":                { "value": "8", "type": "borderRadius", "description": "Рамки сообщений (Скругления)" },
-        "ivrBorderRadius":                  { "value": "10", "type": "borderRadius", "description": "Большие рамки в голосовом меню (Скругления)" },
-        "pageDescriptionBorderRadius":      { "value": "10", "type": "borderRadius", "description": "Фон справок разделов (Скругления)" },
-        "cardBorderRadius":                 { "value": "8", "type": "borderRadius", "description": "Плитки (Скругления)" },
-        "sectionBorderRadius":              { "value": "12", "type": "borderRadius", "description": "Карточки (Скругления)" },
-        "siderbarBorderRadius":             { "value": "0", "type": "borderRadius", "description": "Боковое меню (Скругления)" },
-        "tooltipBorderRadius":              { "value": "0", "type": "borderRadius", "description": "Подсказка рядом с input полями (Скругления)" },
-        "titleBorderRadius":                { "value": "6", "type": "borderRadius", "description": "Всплывающая подсказка (Скругления)" },
-        "highlightBorderRadius":            { "value": "2", "type": "borderRadius", "description": "Выделение результатов поиска (Скругления)" },
-        "minutePackagesBorderRadius":       { "value": "0", "type": "borderRadius", "description": "Пакеты минут (Скругления)" },
-        "optionInfoBorderRadius":           { "value": "0", "type": "borderRadius", "description": "Платные опции (Скругления)" },
-        "optionInfoDemoBorderRadius":       { "value": "0", "type": "borderRadius", "description": "Платные опции Демо (Скругления)" },
-        "telnumsSliderButtonBorderRadius":  { "value": "0", "type": "borderRadius", "description": "Кнопки покупки номеров (Скругления)" },
-        "badgeBorderRadius":                { "value": "2", "type": "borderRadius", "description": "Бейджи (Скругления)" },
-        "timepickerArrowsBorderRadius":     { "value": "0", "type": "borderRadius", "description": "Выбора часов/минут (Скругления)" },
-        "itlTileBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Карточки выбора маршрута номера (Скругления)" },
-        "popupBorderRadius":                { "value": "12", "type": "borderRadius", "description": "Попап (Скругления)" },
-        "popupInfoSectionBorderRadius":     { "value": "6", "type": "borderRadius", "description": "Секция с информацией в попапе (Скругления)" },
-        "calendarWeekSelectorBorderRadius": { "value": "1", "type": "borderRadius", "description": "Кнопки выбора недели в календаре (Скругления)" },
-        "telnumsListScheduleBorderRadius":  { "value": "4", "type": "borderRadius", "description": "Карточки расписания в списке номеров (Скругления)" },
-        "groupsListInfoBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Звонки распределения (Скругления)" },
-        "listLoadingBorderRadius":          { "value": "4", "type": "borderRadius", "description": "Скелетон списка (Скругления)" },
-        "smsCardBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Текст смс (Скругления)" },
-        "notificatorBorderRadius":          { "value": "8", "type": "borderRadius", "description": "Нотификатор (Скругления)" },
-        "paginationItemBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Радиус скрунления страницы (Пагинация)" },
-        "paginationItemBorderRadiusActive": { "value": "0", "type": "borderRadius", "description": "Радиус скругления активной страницы (Пагинация)" },
-        "playerModalBorderRadius":          { "value": "4", "type": "borderRadius", "description": "Модальный плеер (Скругления)" }
+        "selector": {
+            "checkboxBorderRadius":             { "value": "2", "type": "borderRadius", "description": "Чекбокс (Скругления)" }
+        },
+
+        "tab": {
+            "tabBorderRadius": { "value": "6", "type": "borderRadius", "description": "Переключатели (Скругления)" }
+        },
+
+        "input": {
+            "inputBorderRadius": { "value": "6", "type": "borderRadius", "description": "Инпуты (Скругления)" }
+        },
+
+        "button": {
+            "btnBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Кнопки (Скругления)" },
+            "timepickerArrowsBorderRadius": { "value": "0", "type": "borderRadius", "description": "Выбора часов/минут (Скругления)" }
+        },
+
+        "sidebar": {
+            "sidebarBorderRadius":             { "value": "0", "type": "borderRadius", "description": "Боковое меню (Скругления)" },
+            "sidebarItemBorderRadius":          { "value": "6", "type": "borderRadius", "description": "Выделение пункта в боковом меню (Скругления)" }
+        },
+
+        "main": {
+            "musicBorderRadius":                { "value": "8", "type": "borderRadius", "description": "Рамки сообщений (Скругления)" },
+            "ivrBorderRadius":                  { "value": "10", "type": "borderRadius", "description": "Большие рамки в голосовом меню (Скругления)" },
+            "pageDescriptionBorderRadius":      { "value": "10", "type": "borderRadius", "description": "Фон справок разделов (Скругления)" },
+            "sectionBorderRadius":              { "value": "12", "type": "borderRadius", "description": "Карточки (Скругления)" },
+            "tooltipBorderRadius":              { "value": "0", "type": "borderRadius", "description": "Подсказка рядом с input полями (Скругления)" },
+            "titleBorderRadius":                { "value": "6", "type": "borderRadius", "description": "Всплывающая подсказка (Скругления)" },
+            "highlightBorderRadius":            { "value": "2", "type": "borderRadius", "description": "Выделение результатов поиска (Скругления)" },
+            "telnumsListScheduleBorderRadius":  { "value": "4", "type": "borderRadius", "description": "Карточки расписания в списке номеров (Скругления)" },
+            "groupsListInfoBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Звонки распределения (Скругления)" },
+            "listLoadingBorderRadius":          { "value": "4", "type": "borderRadius", "description": "Скелетон списка (Скругления)" },
+            "badgeBorderRadius":                { "value": "2", "type": "borderRadius", "description": "Бейджи (Скругления)" },
+            "itlTileBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Карточки выбора маршрута номера (Скругления)" }
+        },
+
+        "card": {
+            "cardBorderRadius":           { "value": "8", "type": "borderRadius", "description": "Плитки (Скругления)" },
+            "smsCardBorderRadius":        { "value": "6", "type": "borderRadius", "description": "Текст смс (Скругления)" },
+            "optionInfoBorderRadius":     { "value": "0", "type": "borderRadius", "description": "Платные опции (Скругления)" },
+            "optionInfoDemoBorderRadius": { "value": "0", "type": "borderRadius", "description": "Платные опции Демо (Скругления)" }
+        },
+
+        "package": {
+            "minutePackagesBorderRadius": { "value": "0", "type": "borderRadius", "description": "Пакеты минут (Скругления)" }
+        },
+
+        "player": {
+            "playerModalBorderRadius": { "value": "4", "type": "borderRadius", "description": "Модальный плеер (Скругления)" }
+        },
+
+        "navigation": {
+            "paginationItemBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Радиус скрунления страницы (Пагинация)" },
+            "paginationItemBorderRadiusActive": { "value": "0", "type": "borderRadius", "description": "Радиус скругления активной страницы (Пагинация)" },
+            "calendarWeekSelectorBorderRadius": { "value": "1", "type": "borderRadius", "description": "Кнопки выбора недели в календаре (Скругления)" },
+            "telnumsSliderButtonBorderRadius":  { "value": "0", "type": "borderRadius", "description": "Кнопки покупки номеров (Скругления)" }
+        },
+    
+        "notify": {
+            "notificatorBorderRadius": { "value": "8", "type": "borderRadius", "description": "Нотификатор (Скругления)" }
+        },
+
+        "popup": {
+            "popupBorderRadius":            { "value": "12", "type": "borderRadius", "description": "Попап (Скругления)" },
+            "popupInfoSectionBorderRadius": { "value": "6", "type": "borderRadius", "description": "Секция с информацией в попапе (Скругления)" }
+        }
     },
+
     "colors": {
         "main": {
             "primary":                 { "value": "#AD5CAD", "type": "color", "description": "Primary (Color/Main)" },
@@ -387,6 +423,7 @@
             "playerModalTriangleLeft":       { "value": "64", "type": "spacing", "description": "Смещение стрелки слева (Модальный плеер)" }
         }
     },
+
     "boxShadows": {
         "main": {
             "shadowElevated": {
