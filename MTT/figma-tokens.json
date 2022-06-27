@@ -1,1127 +1,431 @@
 {
-  "main": {
-    "primary": {
-      "value": "#ad5cad",
-      "type": "color"
+    "borderRadius": {
+        "checkboxBorderRadius":             { "value": "2", "type": "borderRadius", "description": "Чекбокс (Скругления)" },
+        "tabBorderRadius":                  { "value": "6", "type": "borderRadius", "description": "Переключатели (Скругления)" },
+        "inputBorderRadius":                { "value": "6", "type": "borderRadius", "description": "Инпуты (Скругления)" },
+        "btnBorderRadius":                  { "value": "6", "type": "borderRadius", "description": "Кнопки (Скругления)" },
+        "sidebarItemBorderRadius":          { "value": "6", "type": "borderRadius", "description": "Выделение пункта в боковом меню (Скругления)" },
+        "musicBorderRadius":                { "value": "8", "type": "borderRadius", "description": "Рамки сообщений (Скругления)" },
+        "ivrBorderRadius":                  { "value": "10", "type": "borderRadius", "description": "Большие рамки в голосовом меню (Скругления)" },
+        "pageDescriptionBorderRadius":      { "value": "10", "type": "borderRadius", "description": "Фон справок разделов (Скругления)" },
+        "cardBorderRadius":                 { "value": "8", "type": "borderRadius", "description": "Плитки (Скругления)" },
+        "sectionBorderRadius":              { "value": "12", "type": "borderRadius", "description": "Карточки (Скругления)" },
+        "siderbarBorderRadius":             { "value": "0", "type": "borderRadius", "description": "Боковое меню (Скругления)" },
+        "tooltipBorderRadius":              { "value": "0", "type": "borderRadius", "description": "Подсказка рядом с input полями (Скругления)" },
+        "titleBorderRadius":                { "value": "6", "type": "borderRadius", "description": "Всплывающая подсказка (Скругления)" },
+        "highlightBorderRadius":            { "value": "2", "type": "borderRadius", "description": "Выделение результатов поиска (Скругления)" },
+        "minutePackagesBorderRadius":       { "value": "0", "type": "borderRadius", "description": "Пакеты минут (Скругления)" },
+        "optionInfoBorderRadius":           { "value": "0", "type": "borderRadius", "description": "Платные опции (Скругления)" },
+        "optionInfoDemoBorderRadius":       { "value": "0", "type": "borderRadius", "description": "Платные опции Демо (Скругления)" },
+        "telnumsSliderButtonBorderRadius":  { "value": "0", "type": "borderRadius", "description": "Кнопки покупки номеров (Скругления)" },
+        "badgeBorderRadius":                { "value": "2", "type": "borderRadius", "description": "Бейджи (Скругления)" },
+        "timepickerArrowsBorderRadius":     { "value": "0", "type": "borderRadius", "description": "Выбора часов/минут (Скругления)" },
+        "itlTileBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Карточки выбора маршрута номера (Скругления)" },
+        "popupBorderRadius":                { "value": "12", "type": "borderRadius", "description": "Попап (Скругления)" },
+        "popupInfoSectionBorderRadius":     { "value": "6", "type": "borderRadius", "description": "Секция с информацией в попапе (Скругления)" },
+        "calendarWeekSelectorBorderRadius": { "value": "1", "type": "borderRadius", "description": "Кнопки выбора недели в календаре (Скругления)" },
+        "telnumsListScheduleBorderRadius":  { "value": "4", "type": "borderRadius", "description": "Карточки расписания в списке номеров (Скругления)" },
+        "groupsListInfoBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Звонки распределения (Скругления)" },
+        "listLoadingBorderRadius":          { "value": "4", "type": "borderRadius", "description": "Скелетон списка (Скругления)" },
+        "smsCardBorderRadius":              { "value": "6", "type": "borderRadius", "description": "Текст смс (Скругления)" },
+        "notificatorBorderRadius":          { "value": "8", "type": "borderRadius", "description": "Нотификатор (Скругления)" },
+        "paginationItemBorderRadius":       { "value": "6", "type": "borderRadius", "description": "Радиус скрунления страницы (Пагинация)" },
+        "paginationItemBorderRadiusActive": { "value": "0", "type": "borderRadius", "description": "Радиус скругления активной страницы (Пагинация)" },
+        "playerModalBorderRadius":          { "value": "4", "type": "borderRadius", "description": "Модальный плеер (Скругления)" }
     },
-    "primary-hover": {
-      "value": "#993399",
-      "type": "color"
+    "colors": {
+        "main/primary":                 { "value": "#AD5CAD", "type": "color", "description": "Primary (Color/Main)" },
+        "main/primaryHover":            { "value": "#993399", "type": "color", "description": "Primary-hover (Color/Main)" },
+        "main/primaryTouch":            { "value": "#7A297A", "type": "color", "description": "Primary-touch (Color/Main)" },
+        "main/active":                  { "value": "#7A297A", "type": "color", "description": "Active (Color/Main)" },
+        "main/link":                    { "value": "#AD5CAD", "type": "color", "description": "Link (Color/Main)" },
+        "main/linkHover":               { "value": "#993399", "type": "color", "description": "Link-hover (Color/Main)" },
+        "main/linkTouch":               { "value": "#7A297A", "type": "color", "description": "Link-touch (Color/Main)" },
+        "main/critical":                { "value": "#FF2222", "type": "color", "description": "Critical (Color/Main)" },
+        "main/criticalHover":           { "value": "#D90610", "type": "color", "description": "Critical-hover (Color/Main)" },
+        "main/criticalTouch":           { "value": "#AD050D", "type": "color", "description": "Critical-touch (Color/Main)" },
+        "main/intro":                   { "value": "#f2f2f2", "type": "color", "description": "Intro (Color/Main)" },
+        "main/divider":                 { "value": "#EAE6E6", "type": "color", "description": "Divider (Color/Main)" },
+        "main/dividerAdditional":       { "value": "#D9D9D9", "type": "color", "description": "Divider-additional (Color/Main)" },
+        "main/dayoff":                  { "value": "#E10019", "type": "color", "description": "Dayoff (Color/Main)" },
+        "main/bgColorAuthPage":         { "value": "#F7F6F9", "type": "color", "description": "Background (Color/Main)" },
+        "main/bgColorLoadingPage":      { "value": "#F7F6F9", "type": "color", "description": "Background (Color/Main)" },
+        "main/spinnerLoadingPageColor": { "value": "#7A297A", "type": "color", "description": "Spinner (Color/Main)" },
+        "main/overlayColor":            { "value": "#333333E5", "type": "color", "description": "Overlay (Color/Main)" },
+        "main/highLightBgColor":        { "value": "#7A297A33", "type": "color", "description": "Search-result-bg (Color/Main)" },
+        "main/popupOverlayBgColor":     { "value": "#222222b3", "type": "color", "description": "Цвет фона подложки (Попап)" },
+        "main/loginLayoutLogoColor":    { "value": "transparent", "type": "color", "description": "Цвет логотипа на странице логин (Логин)" },
+        "main/transparent":      { "value": "#ffffff00", "type": "color" },
+
+        "card/cardHeaderColor":      { "value": "#333333", "type": "color", "description": "Card-header (Color/Card)" },
+        "card/cardHeaderColorHover": { "value": "#993399", "type": "color", "description": "Card-header-hover (Color/Card)" },
+        "card/cardHeaderColorTouch": { "value": "#7A297A", "type": "color", "description": "Card-header-touch (Color/Card)" },
+
+        "mist/black":  { "value": "#000000", "type": "color", "description": "Black (Color/Mist)" },
+        "mist/white":  { "value": "#FFFFFF", "type": "color", "description": "White (Color/Mist)" },
+        "mist/mist5":  { "value": "#F7F6F9", "type": "color", "description": "Mist-5 (Color/Mist)" },
+        "mist/mist10": { "value": "#E8EAEF", "type": "color", "description": "Mist-10 (Color/Mist)" },
+        "mist/mist15": { "value": "#E3E9EB", "type": "color", "description": "Mist-15 (Color/Mist)" },
+        "mist/mist30": { "value": "#948796", "type": "color", "description": "Mist-30 (Color/Mist)" },
+        "mist/mist80": { "value": "#333333", "type": "color", "description": "Mist-80 (Color/Mist)" },
+        
+        "input/inputBorderColor":           { "value": "#D9D9D9", "type": "color", "description": "Input stroke (Color/Input)" },
+        "input/inputBorderColorHover":      { "value": "#948796", "type": "color", "description": "Input stroke hover (Color/Input)" },
+        "input/inputBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Input stroke touch (Color/Input)" },
+        "input/inputIconColor":             { "value": "#333333", "type": "color", "description": "Input-icon (Color/Input)" },
+        "input/inputIconColorHover":        { "value": "#993399", "type": "color", "description": "Input-icon-hover (Color/Input)" },
+        "input/inputIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Input-icon-touch (Color/Input)" },
+        "input/bgColorHover":               { "value": "#F7F6F9", "type": "color", "description": "Background-hover (Color/Input)" },
+        "input/comboboxItemTextColorHover": { "value": "#333333", "type": "color", "description": "Dropdown-text-hover (Color/Input)" },
+        "input/comboboxItemTextColorTouch": { "value": "#F7F6F9", "type": "color", "description": "Dropdown-text-touch (Color/Input)" },
+
+        "popup/iconBubbleShapeColor": { "value": "transparent", "type": "color", "description": "Icon-bubble-shape (Color/Popup)" },
+        "popup/listMarkerBgColor": { "value": "#AD5CAD", "type": "color", "description": "List-marker-bg (Color/Popup)" },
+        "popup/listMarkerColor": { "value": "#FFFFFF", "type": "color", "description": "List-marker-content (Color/Popup)" },
+
+        "scroll/scrollThumbColor": { "value": "#948796", "type": "color", "description": "Scroll (Color/Scroll)" },
+        "scroll/scrollThumbColorHover": { "value": "transparent", "type": "color", "description": "Scroll-hover (Color/Scroll)" },
+        "scroll/scrollThumbColorTouch": { "value": "transparent", "type": "color", "description": "Scroll-touch (Color/Scroll)" },
+
+        "status/errorColor":    { "value": "#FF2222", "type": "color", "description": "Error (Color/Status)" },
+        "status/successColor":  { "value": "#68BA00", "type": "color", "description": "Success (Color/Status)" },
+        "status/noRegColor":    { "value": "#D5DDEB", "type": "color", "description": "No-reg (Color/Status)" },
+        "status/warningColor":  { "value": "#FE6B00", "type": "color", "description": "Event-warning (Color/Status)" },
+
+        "call/callOutgoingColor":       { "value": "#23B4E4", "type": "color", "description": "Call-outgoing (Color/Call)" },
+        "call/callOutgoingColorHover":  { "value": "#53C0E4", "type": "color", "description": "Call-outgoing-hover (Color/Call)" },
+        "call/callIncomingColor":       { "value": "#29BF6E", "type": "color", "description": "Call-incoming (Color/Call)" },
+        "call/callIncomingColorHover":  { "value": "#57C88B", "type": "color", "description": "Call-incoming-hover (Color/Call)" },
+        "call/callMissedColor":         { "value": "#F04C56", "type": "color", "description": "Call-missed (Color/Call)" },
+        "call/callMissedColorHover":    { "value": "#ED7279", "type": "color", "description": "Call-missed-hover (Color/Call)" },
+
+        "badge/badgeAlphaColor": { "value": "#3ABC31", "type": "color", "description": "Badge-alpha (Color/Badge)" },
+        "badge/badgeGradeColor": { "value": "transparent", "type": "color", "description": "Badge-grade (Color/Badge)" },
+
+        "sidebar/sidebarBgColor":           { "value": "transparent", "type": "color", "description": "Sidebar-bg (Color/Navigation)" },
+        "sidebar/sidebarLogoColor":         { "value": "#993399", "type": "color", "description": "Sidebar-logo-color (Color/Navigation)" },
+        "sidebar/sidebarItemBgColor":       { "value": "transparent", "type": "color", "description": "Sidebar-item-bg (Color/Navigation)" },
+        "sidebar/sidebarItemBgColorHover":  { "value": "transparent", "type": "color", "description": "Sidebar-item-bg-hover (Color/Navigation)" },
+        "sidebar/sidebarItemBgColorActive": { "value": "#FFFFFF", "type": "color", "description": "Sidebar-item-bg-active (Color/Navigation)" },
+        "sidebar/sidebarIconColor":         { "value": "#333333", "type": "color", "description": "Sidebar-icon (Color/Navigation)" },
+        "sidebar/sidebarIconColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-icon-hover (Color/Navigation)" },
+        "sidebar/sidebarIconColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-icon-active (Color/Navigation)" },
+        "sidebar/sidebarTextColor":         { "value": "#333333", "type": "color", "description": "Sidebar-text (Color/Navigation)" },
+        "sidebar/sidebarTextColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-text-hover (Color/Navigation)" },
+        "sidebar/sidebarTextColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-text-active (Color/Navigation)" },
+
+        "tab/tabPrimaryTextColor":              { "value": "#333333", "type": "color", "description": "Tab-text-default (Color/Tab)" },
+        "tab/tabPrimaryTextColorHover":         { "value": "#993399", "type": "color", "description": "Tab-text-hover (Color/Tab)" },
+        "tab/tabPrimaryTextColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-text-touch (Color/Tab)" },
+        "tab/tabPrimaryTextColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-text-active (Color/Tab)" },
+        "tab/tabPrimaryIconColor":              { "value": "#333333", "type": "color", "description": "Tab-icon-default (Color/Tab)" },
+        "tab/tabPrimaryIconColorHover":         { "value": "#993399", "type": "color", "description": "Tab-icon-hover (Color/Tab)" },
+        "tab/tabPrimaryIconColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-icon-touch (Color/Tab)" },
+        "tab/tabPrimaryIconColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-icon-active (Color/Tab)" },
+        "tab/tabPrimaryLineColor":              { "value": "transparent", "type": "color", "description": "Tab-line-default (Color/Tab)" },
+        "tab/tabPrimaryLineColorHover":         { "value": "transparent", "type": "color", "description": "Tab-line-hover (Color/Tab)" },
+        "tab/tabPrimaryLineColorTouch":         { "value": "transparent", "type": "color", "description": "Tab-line-touch (Color/Tab)" },
+        "tab/tabPrimaryLineColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-line-active (Color/Tab)" },
+        "tab/tabPrimaryLineColorActiveHover":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-hover (Color/Tab)" },
+        "tab/tabPrimaryLineColorActiveTouch":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-touch (Color/Tab)" },
+    
+        "tab/tabSecondaryBgColor":              { "value": "#FFFFFF", "type": "color", "description": "Switcher-bg-default (Color/Tab)" },
+        "tab/tabSecondaryBgColorHover":         { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-hover (Color/Tab)" },
+        "tab/tabSecondaryBgColorTouch":         { "value": "#E3E9EB", "type": "color", "description": "Switcher-bg-touch (Color/Tab)" },
+        "tab/tabSecondaryBgColorActive":        { "value": "#7A297A", "type": "color", "description": "Switcher-bg-active (Color/Tab)" },
+        "tab/tabSecondaryBgColorDisabled":      { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-disabled (Color/Tab)" },
+        "tab/tabSecondaryBorderColor":          { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-default (Color/Tab)" },
+        "tab/tabSecondaryBorderColorHover":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-hover (Color/Tab)" },
+        "tab/tabSecondaryBorderColorTouch":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-touch (Color/Tab)" },
+        "tab/tabSecondaryBorderColorActive":    { "value": "#7A297A", "type": "color", "description": "Switcher-divider-active (Color/Tab)" },
+        "tab/tabSecondaryBorderColorDisabled":  { "value": "#948796", "type": "color", "description": "Switcher-divider-disabled (Color/Tab)" },
+        "tab/tabSecondaryColor":                { "value": "#333333", "type": "color", "description": "Switcher-text-default (Color/Tab)" },
+        "tab/tabSecondaryColorHover":           { "value": "#333333", "type": "color", "description": "Switcher-text-hover (Color/Tab)" },
+        "tab/tabSecondaryColorTouch":           { "value": "#333333", "type": "color", "description": "Switcher-text-touch (Color/Tab)" },
+        "tab/tabSecondaryColorActive":          { "value": "#FFFFFF", "type": "color", "description": "Switcher-text-active (Color/Tab)" },
+        "tab/tabSecondaryColorDisabled":        { "value": "#948796", "type": "color", "description": "Switcher-text-disabled (Color/Tab)" },
+        "tab/tabSecondaryIconColor":            { "value": "#333333", "type": "color", "description": "Switcher-icon-default (Color/Tab)" },
+        "tab/tabSecondaryIconColorHover":       { "value": "#993399", "type": "color", "description": "Switcher-icon-hover (Color/Tab)" },
+        "tab/tabSecondaryIconColorTouch":       { "value": "#7A297A", "type": "color", "description": "Switcher-icon-touch (Color/Tab)" },
+        "tab/tabSecondaryIconColorActive":      { "value": "#FFFFFF", "type": "color", "description": "Switcher-icon-active (Color/Tab)" },
+        "tab/tabSecondaryIconColorDisabled":    { "value": "#948796", "type": "color", "description": "Switcher-icon-disabled (Color/Tab)" },
+    
+        "navigation/breadCrumbColorActive": { "value": "#7A297A", "type": "color", "description": "Second-active (Color/Navigation)" },
+        "navigation/headerBarBgColor":      { "value": "transparent", "type": "color", "description": "Userbar-bg (Color/Navigation)" },
+    
+        "button/btnPrimaryBgColor":                 { "value": "#AD5CAD", "type": "color", "description": "Primary-bg (Color/Button)" },
+        "button/btnPrimaryBgColorHover":            { "value": "#993399", "type": "color", "description": "Primary-bg-hover (Color/Button)" },
+        "button/btnPrimaryBgColorTouch":            { "value": "#7A297A", "type": "color", "description": "Primary-bg-touch (Color/Button)" },
+        "button/btnPrimaryBgColorDisabled":         { "value": "#F7F6F9", "type": "color", "description": "Primary-bg-disabled (Color/Button)" },
+        "button/btnPrimaryTextColor":               { "value": "#FFFFFF", "type": "color", "description": "Primary-text (Color/Button)" },
+        "button/btnPrimaryTextColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-hover (Color/Button)" },
+        "button/btnPrimaryTextColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-touch (Color/Button)" },
+        "button/btnPrimaryTextColorDisabled":       { "value": "#948796", "type": "color", "description": "Primary-text-disabled (Color/Button)" },
+        "button/btnSecondaryBgColor":               { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg (Color/Button)" },
+        "button/btnSecondaryBgColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-hover (Color/Button)" },
+        "button/btnSecondaryBgColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-touch (Color/Button)" },
+        "button/btnSecondaryBgColorDisabled":       { "value": "#F7F6F9", "type": "color", "description": "Secondary-bg-disabled (Color/Button)" },
+        "button/btnSecondaryBorderColor":           { "value": "#AD5CAD", "type": "color", "description": "Secondary-stroke (Color/Button)" },
+        "button/btnSecondaryBorderColorHover":      { "value": "#993399", "type": "color", "description": "Secondary-stroke-hover (Color/Button)" },
+        "button/btnSecondaryBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Secondary-stroke-touch (Color/Button)" },
+        "button/btnSecondaryBorderColorDisabled":   { "value": "transparent", "type": "color", "description": "Secondary-stroke-disabled (Color/Button)" },
+        "button/btnSecondaryIconColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-icon (Color/Button)" },
+        "button/btnSecondaryIconColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-icon-hover (Color/Button)" },
+        "button/btnSecondaryIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-icon-touch (Color/Button)" },
+        "button/btnSecondaryTextColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-text (Color/Button)" },
+        "button/btnSecondaryTextColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-text-hover (Color/Button)" },
+        "button/btnSecondaryTextColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-text-touch (Color/Button)" },
+        "button/btnSecondaryTextColorDisabled":     { "value": "#948796", "type": "color", "description": "Secondary-text-disabled (Color/Button)" },
+        "button/iconColor":                         { "value": "#333333", "type": "color", "description": "Icon-default (Color/Button)" },
+        "button/iconColorHover":                    { "value": "#993399", "type": "color", "description": "Icon-hover (Color/Button)" },
+        "button/iconColorTouch":                    { "value": "#7A297A", "type": "color", "description": "Icon-touch (Color/Button)" },
+        "button/iconColorDisabled":                 { "value": "#948796", "type": "color", "description": "Icon-disabled (Color/Button)" },
+    
+        "button/btnCountBgColor":           { "value": "transparent", "type": "color", "description": "Quantity-bg (Color/Button)" },
+        "button/btnCountBgColorHover":      { "value": "transparent", "type": "color", "description": "Quantity-bg-hover (Color/Button)" },
+        "button/btnCountBgColorTouch":      { "value": "transparent", "type": "color", "description": "Quantity-bg-touch (Color/Button)" },
+        "button/btnCountBgColorDisabled":   { "value": "transparent", "type": "color", "description": "Quantity-bg-disabled (Color/Button)" },
+        "button/btnCountColor":             { "value": "#AD5CAD", "type": "color", "description": "Quantity-content (Color/Button)" },
+        "button/btnCountColorHover":        { "value": "#993399", "type": "color", "description": "Quantity-content-hover (Color/Button)" },
+        "button/btnCountColorTouch":        { "value": "#7A297A", "type": "color", "description": "Quantity-content-touch (Color/Button)" },
+        "button/btnCountColorDisabled":     { "value": "#E3E9EB", "type": "color", "description": "Quantity-content-disabled (Color/Button)" },
+
+        "button/paginationBgColor":             { "value": "transparent", "type": "color", "description": "Pagination-bg (Color/Button)" },
+        "button/paginationBgColorHover":        { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-hover (Color/Button)" },
+        "button/paginationBgColorTouch":        { "value": "#E3E9EB", "type": "color", "description": "Pagination-bg-touch (Color/Button)" },
+        "button/paginationBgColorActive":       { "value": "#7A297A", "type": "color", "description": "Pagination-bg-active (Color/Button)" },
+        "button/paginationBgColorDisabled":     { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-disabled (Color/Button)" },
+        "button/paginationBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke (Color/Button)" },
+        "button/paginationBorderColorHover":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-hover (Color/Button)" },
+        "button/paginationBorderColorTouch":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-touch (Color/Button)" },
+        "button/paginationBorderColorActive":   { "value": "#7A297A", "type": "color", "description": "Pagination-stroke-active (Color/Button)" },
+        "button/paginationBorderColorDisabled": { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-disabled (Color/Button)" },
+        "button/paginationColor":               { "value": "#AD5CAD", "type": "color", "description": "Pagination-page (Color/Button)" },
+        "button/paginationColorHover":          { "value": "#993399", "type": "color", "description": "Pagination-page-hover (Color/Button)" },
+        "button/paginationColorTouch":          { "value": "#7A297A", "type": "color", "description": "Pagination-page-touch (Color/Button)" },
+        "button/paginationColorActive":         { "value": "#FFFFFF", "type": "color", "description": "Pagination-page-active (Color/Button)" },
+        "button/paginationColorDisabled":       { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" },
+        "button/paginationIconColor":           { "value": "#AD5CAD", "type": "color", "description": "Pagination-scrollbtn (Color/Button)" },
+        "button/paginationIconColorHover":      { "value": "#993399", "type": "color", "description": "Pagination-scrollbtn-hover (Color/Button)" },
+        "button/paginationIconColorTouch":      { "value": "#7A297A", "type": "color", "description": "Pagination-scrollbtn-touch (Color/Button)" },
+        "button/paginationIconColorDisabled":   { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" },
+
+        "selector/switchBgColor":               { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default (Color/Selector)" },
+        "selector/switchBgColorHover":          { "value": "#F7F6F9", "type": "color", "description": "Toggle-bg-default-hover (Color/Selector)" },
+        "selector/switchBgColorTouch":          { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default-touch (Color/Selector)" },
+        "selector/switchBgColorActive":         { "value": "#AD5CAD", "type": "color", "description": "Toggle-bg-active (Color/Selector)" },
+        "selector/switchBgColorActiveHover":    { "value": "#993399", "type": "color", "description": "Toggle-bg-active-hover (Color/Selector)" },
+        "selector/switchBgColorActiveTouch":    { "value": "#7A297A", "type": "color", "description": "Toggle-bg-active-touch (Color/Selector)" },
+        "selector/switchBgColorDisabled":       { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-disabled (Color/Selector)" },
+        "selector/switchEllipseColor":          { "value": "#FFFFFF", "type": "color", "description": "Toggle-ellipse-active (Color/Selector)" },
+        "selector/switchEllipseColorDisabled":  { "value": "#948796", "type": "color", "description": "Toggle-ellipse-disabled (Color/Selector)" },
+
+        "selector/checkboxUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg (Color/Selector)" },
+        "selector/checkboxUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Hover (Color/Selector)" },
+        "selector/checkboxUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Touch (Color/Selector)" },
+        "selector/checkboxUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Bg-Disabled (Color/Selector)" },
+        "selector/checkboxUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Border (Color/Selector)" },
+        "selector/checkboxUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "Checkbox-Unchecked-Border-Hover (Color/Selector)" },
+        "selector/checkboxUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "Checkbox-Unchecked-Border-Touch (Color/Selector)" },
+        "selector/checkboxUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "Checkbox-Unchecked-Border-Disabled (Color/Selector)" },
+        "selector/checkboxCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg (Color/Selector)" },
+        "selector/checkboxCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Hover (Color/Selector)" },
+        "selector/checkboxCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Touch (Color/Selector)" },
+        "selector/checkboxCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Checked-Bg-Disabled (Color/Selector)" },
+        "selector/checkboxCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border (Color/Selector)" },
+        "selector/checkboxCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Border-Hover (Color/Selector)" },
+        "selector/checkboxCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border-Touch (Color/Selector)" },
+        "selector/checkboxCheckedBorderColorDisabled":      { "value": "transparent", "type": "color", "description": "Checkbox-Checked-Border-Disabled (Color/Selector)" },
+        "selector/checkboxCheckedIconColor":                { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon (Color/Selector)" },
+        "selector/checkboxCheckedIconColorHover":           { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Icon-Hover (Color/Selector)" },
+        "selector/checkboxCheckedIconColorTouch":           { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon-Touch (Color/Selector)" },
+        "selector/checkboxCheckedIconColorDisabled":        { "value": "#948796", "type": "color", "description": "Checkbox-Checked-Icon-Disabled (Color/Selector)" },
+    
+        "selector/radioBtnUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg (Color/Selector)" },
+        "selector/radioBtnUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Hover (Color/Selector)" },
+        "selector/radioBtnUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Touch (Color/Selector)" },
+        "selector/radioBtnUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Bg-Disabled (Color/Selector)" },
+        "selector/radioBtnUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Border (Color/Selector)" },
+        "selector/radioBtnUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "RadioBtn-Unchecked-Border-Hover (Color/Selector)" },
+        "selector/radioBtnUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "RadioBtn-Unchecked-Border-Touch (Color/Selector)" },
+        "selector/radioBtnUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Border-Disabled (Color/Selector)" },
+        "selector/radioBtnUncheckedCircleColor":            { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle (Color/Selector)" },
+        "selector/radioBtnUncheckedCircleColorHover":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Hover (Color/Selector)" },
+        "selector/radioBtnUncheckedCircleColorTouch":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Touch (Color/Selector)" },
+        "selector/radioBtnUncheckedCircleColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Disabled (Color/Selector)" },
+        "selector/radioBtnCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg (Color/Selector)" },
+        "selector/radioBtnCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Hover (Color/Selector)" },
+        "selector/radioBtnCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Touch (Color/Selector)" },
+        "selector/radioBtnCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Bg-Disabled (Color/Selector)" },
+        "selector/radioBtnCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border (Color/Selector)" },
+        "selector/radioBtnCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Border-Hover (Color/Selector)" },
+        "selector/radioBtnCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border-Touch (Color/Selector)" },
+        "selector/radioBtnCheckedBorderColorDisabled":      { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Border-Disabled (Color/Selector)" },
+        "selector/radioBtnCheckedCircleColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle (Color/Selector)" },
+        "selector/radioBtnCheckedCircleColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Circle-Hover (Color/Selector)" },
+        "selector/radioBtnCheckedCircleColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle-Touch (Color/Selector)" },
+        "selector/radioBtnCheckedCircleColorDisabled":      { "value": "#948796", "type": "color", "description": "RadioBtn-Checked-Circle-Disabled (Color/Selector)" },
+    
+        "package/packageBgColor":             { "value": "#FFFFFF", "type": "color", "description": "Package-bg-default (Color/Package)" },
+        "package/packageBgColorHover":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-hover (Color/Package)" },
+        "package/packageBgColorTouch":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-touch (Color/Package)" },
+        "package/packageBoughtBgColor":       { "value": "#AD5CAD", "type": "color", "description": "Package-bought-bg-default (Color/Package)" },
+        "package/packageBoughtBgColorHover":  { "value": "#993399", "type": "color", "description": "Package-bought-bg-hover (Color/Package)" },
+        "package/packageBoughtBgColorTouch":  { "value": "#7A297A", "type": "color", "description": "Package-bought-bg-touch (Color/Package)" },
+        "package/packageBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Package-stroke-default (Color/Package)" },
+        "package/packageBorderColorHover":    { "value": "transparent", "type": "color", "description": "Package-stroke-hover (Color/Package)" },
+        "package/packageBorderColorTouch":    { "value": "transparent", "type": "color", "description": "Package-stroke-touch (Color/Package)" },
+        "package/packageBoughtBorderColor":   { "value": "transparent", "type": "color", "description": "Package-bought-stroke-default (Color/Package)" },
+    
+        "notify/notificatorTextColor":              { "value": "#333333", "type": "color", "description": "Цвет текста (Нотификатор)" },
+        "notify/notificatorIconInfoColor":          { "value": "#333333", "type": "color", "description": "Цвет иконки в информационном нотификаторе (Нотификатор)" },
+        "notify/notificatorIconSuccessColor":       { "value": "#68BA00", "type": "color", "description": "Цвет иконки в успешном нотификаторе (Нотификатор)" },
+        "notify/notificatorIconErrorColor":         { "value": "#FF2222", "type": "color", "description": "Цвет иконки в нотификаторе с ошибкой (Нотификатор)" },
+        "notify/notificatorInfoBgColor":            { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
+        "notify/notificatorSuccessBgColor":         { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в успешном нотификаторе (Нотификатор)" },
+        "notify/notificatorErrorBgColor":           { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
+        "notify/notificatorCloseIconColorHover":    { "value": "#993399", "type": "color", "description": "Цвет иконки закрытия при ховере (Нотификатор)" },
+        "notify/notificatorCloseIconColorTouch":    { "value": "#7A297A", "type": "color", "description": "Цвет иконки закрытия при нажатии (Нотификатор)" },
+
+        "player/playerModalBgColor":                    { "value": "#FFFFFF", "type": "color", "description": "Цвет фона (Модальный плеер)" },
+        "player/playerModalColor":                      { "value": "#333333", "type": "color", "description": "Цвет текста (Модальный плеер)" },
+        "player/playerModalColorDisabled":              { "value": "#948796", "type": "color", "description": "Цвет текста при загрузке мелодии (Модальный плеер)" },
+        "player/playerModalIconColor":                  { "value": "#333333", "type": "color", "description": "Цвет иконок (Модальный плеер)" },
+        "player/playerModalIconColorHover":             { "value": "#993399", "type": "color", "description": "Цвет иконок при наведении мышки (Модальный плеер)" },
+        "player/playerModalIconColorTouch":             { "value": "#7A297A", "type": "color", "description": "Цвет иконок при нажатии мышки (Модальный плеер)" },
+        "player/playerModalIconColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Цвет иконок при загрузке (Модальный плеер)" },
+        "player/playerModalThumbColor":                 { "value": "#7A297A", "type": "color", "description": "Цвет овала на шкале прогресса (Модальный плеер)" },
+        "player/playerModalProgressBgColor":            { "value": "#E8EAEF", "type": "color", "description": "Цвет фона шкалы прогресса (Модальный плеер)" },
+        "player/playerModalProgressBgColorActive":      { "value": "#7A297A", "type": "color", "description": "Цвет фона шкалы загруженного прогресса (Модальный плеер)" },
+        "player/playerModalProgressBgColorLoading":     { "value": "#F7F6F9", "type": "color", "description": "Цвет фона шкалы прогресса во время загрузки (Модальный плеер)" },
+        "player/playerModalProgressBarColorLoading":    { "value": "#E8EAEF", "type": "color", "description": "Цвет баров шкалы прогресса во время загрузки (Модальный плеер)" },
+
+        "card/smsCardBgColor":              { "value": "#E8EAEF", "type": "color", "description": "Цвет текста активной смс (Смс визика/извинение)" },
+        "card/crmFormSetupHeaderBgColor":   { "value": "#FFFFFF", "type": "color", "description": "Цвет фона хедера (Интеграция с CRM)" },
+        "card/crmFormSetupHeaderLogoColor": { "value": "transparent", "type": "color", "description": "Цвет логотипа партнёра (Интеграция с CRM)" },
+        "card/crmFormSetupHeaderColor":     { "value": "#333333", "type": "color", "description": "Цвет текста в хедере (Интеграция с CRM)" }
     },
-    "primary-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "active": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "link": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "link-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "link-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "critical": {
-      "value": "#ff2222",
-      "type": "color"
-    },
-    "critical-hover": {
-      "value": "#d90610",
-      "type": "color"
-    },
-    "critical-touch": {
-      "value": "#ad050d",
-      "type": "color"
-    },
-    "intro": {
-      "value": "#f2f2f2",
-      "type": "color"
-    },
-    "overlay": {
-      "value": "#333333e6",
-      "type": "color"
-    },
-    "dayoff": {
-      "value": "#e10019",
-      "type": "color"
-    },
-    "transparent": {
-      "value": "#ffffff00",
-      "type": "color"
-    },
-    "popup-shade": {
-      "value": "#222222b3",
-      "type": "color"
-    },
-    "elevated": {
-      "value": [
-        {
-          "color": "#49565d1f",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 0,
-          "blur": 2,
-          "spread": 0
+    "sizeParams": {
+        "sidebar/sidebarItemMargin":    { "value": "4", "type": "spacing", "description": "Sidebar-item (Margin/Navigation)" },
+        "sidebar/sidebarItemWidth":     { "value": "88", "type": "sizing", "description": "Ширина пункта (узкий вид) (Боковое меню)" },
+        "sidebar/sidebarItemXlWidth":   { "value": "176", "type": "sizing", "description": "Ширина пункта (широкий вид) (Боковое меню)" },
+        "sidebar/sidebarItemMinHeight": { "value": "56", "type": "sizing", "description": "Минимальная высота пункта (Боковое меню)" },
+
+        "notificator/notificatorHeight":        { "value": "56", "type": "sizing", "description": "Высота уведомления (Нотификатор)" },
+        "notificator/notificatorWidth":         { "value": "fill", "type": "sizing", "description": "Ширина уведомления (Нотификатор)" },
+        "notificator/notificatorMarginTop":     { "value": "40", "type": "spacing", "description": "Отступ сверху (Нотификатор)" },
+        "notificator/notificatorPadding":       { "value": "16", "type": "spacing", "description": "Внутренний отступ (Нотификатор)" },
+        "notificator/notificatorCloseBorderLeft": {
+            "width": { "value": "1", "type": "spacing", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" },
+            "color": { "value": "#E6E6E9", "type": "color", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" }
         },
-        {
-          "color": "#49565d1f",
-          "type": "dropShadow",
-          "x": 0,
-          "y": 4,
-          "blur": 12,
-          "spread": 0
+        "notificator/notificatorOffsetLeft":    { "value": "0", "type": "spacing", "description": "Отступ слева на узком экране (Нотификатор)" },
+        "notificator/notificatorXlOffsetLeft":  { "value": "0", "type": "spacing", "description": "Отступ справа на широком экране (Нотификатор)" },
+
+        "button/btnMaxWidth":  { "value": "236", "type": "sizing", "description": "Максимальная ширина (Кнопки)" },
+        "button/btnPadding":   {
+            "vertical":   { "value": "0", "type": "spacing", "description": "Внутренние отступы (Верхний и нижний) (Кнопки)" },
+            "horizontal": { "value": "16", "type": "spacing", "description": "Максимальная ширина (Левый и правый) (Кнопки)" }
+        },
+        "button/btnCountSize": { "value": "40", "type": "spacing", "description": "Размер кнопки кол-ва (+,-) (Кнопки)" },
+
+        "navigation/breadcrumbDividerMargin":      { "value": "8", "type": "spacing", "description": "Отступ от разделителя в хлебных крошках (Юзербар)" },
+        "pagination/paginationItemBorderWidth":    { "value": "1", "type": "sizing", "description": "Толщина обводки страницы (Пагинация)" },
+        "pagination/paginationItemMarginRight":    { "value": "0", "type": "spacing", "description": "Отступ справа для страницы (Пагинация)" },
+        "pagination/paginationAngleMargin":        { "value": "8", "type": "spacing", "description": "Отступ от стрелок (Пагинация)" },
+
+        "player/playerModalProgressBarHeight":  { "value": "4", "type": "sizing", "description": "Высота шкалы прогресса (Модальный плеер)" },
+        "player/playerModalProgressBarWidth":   { "value": "270", "type": "sizing", "description": "Ширина шкалы прогресса (Модальный плеер)" },
+        "player/playerModalThumbSize":          { "value": "0", "type": "sizing", "description": "Размер овала на шкале прогресса (Модальный плеер)" },
+        "player/playerModalThumbSizeActive":    { "value": "16", "type": "sizing", "description": "Размер овала на шкале прогресса при наведении мышки (Модальный плеер)" },
+        "player/playerModalTriangleLeft":       { "value": "64", "type": "spacing", "description": "Смещение стрелки слева (Модальный плеер)" }
+    },
+    "boxShadows": {
+        "shadowElevated": {
+            "value": [
+                {
+                    "color": "#49565D1F",
+                    "type": "dropShadow",
+                    "x": 0,
+                    "y": 0,
+                    "blur": 2,
+                    "spread": 0
+                },
+                {
+                    "color": "#49565D1F",
+                    "type": "dropShadow",
+                    "x": 0,
+                    "y": 4,
+                    "blur": 12,
+                    "spread": 0
+                }
+            ],
+            "type": "boxShadow",
+            "description": "Elevated (Effects/Main)"
+        },
+        "shadowElevatedHeavy": {
+            "value": {
+                "color": "#49565D1F",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 15,
+                "blur": 30,
+                "spread": 0
+            },
+            "type": "boxShadow",
+            "description": "Elevated heavy (Effects/Main)"
+        },
+        "btnPrimaryShadow": { "value": [], "type": "boxShadow", "description": "Primary (Effects/Button)" },
+        "btnPrimaryShadowHover": { "value": [], "type": "boxShadow", "description": "Primary - hover (Effects/Button)" },
+        "btnSecondaryShadow": { "value": [], "type": "boxShadow", "description": "Secondary (Effects/Button)" },
+        "btnSecondaryShadowHover": { "value": [], "type": "boxShadow", "description": "Secondary - hover (Effects/Button)" },
+        "btnCriticalShadow": { "value": [], "type": "boxShadow", "description": "Critical (Effects/Button)" },
+        "btnCriticalShadowHover": { "value": [], "type": "boxShadow", "description": "Critical - hover (Effects/Button)" },
+        "switchShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" },
+        "switchCircleShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" },
+        "timepickerArrowShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Timepicker)" },
+        "playerModalShadow": { "value": [
+            {
+                "color": "rgba(43, 83, 155, 0.16)",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 12,
+                "blur": 36,
+                "spread": 0
+            },
+            {
+                "color": "rgba(43, 83, 155, 0.08)",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 4,
+                "blur": 8,
+                "spread": 0
+            }
+        ], "type": "boxShadow", "description": "Shadow (Effects/Player-modal)" },
+        "sidebarShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Sidebar)" },
+        "sidebarItemShadowActive": {
+            "value": {
+                "color": "#C9C1C945",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 10,
+                "spread": 0
+            },
+            "type": "boxShadow",
+            "description": "Тень активного пункта (Боковое меню)"
+        },
+        "notificatorBoxShadow": {
+            "value": {
+                "color": "#2E519B1E",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 15,
+                "blur": 30,
+                "spread": 0
+            },
+            "type": "boxShadow",
+            "description": "Тени (Нотификатор)"
         }
-      ],
-      "type": "boxShadow"
-    },
-    "elevated heavy": {
-      "value": {
-        "color": "#49565d1f",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 15,
-        "blur": 30,
-        "spread": 0
-      },
-      "type": "boxShadow"
     }
-  },
-  "card": {
-    "card-header": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "card-header-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "card-header-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    }
-  },
-  "mist": {
-    "mist-5": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "mist-10": {
-      "value": "#e8eaef",
-      "type": "color"
-    },
-    "mist-15": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "mist-30": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "mist-80": {
-      "value": "#333333",
-      "type": "color"
-    }
-  },
-  "sidebar": {
-    "sidebar-bg": {
-      "value": "#f7f6f900",
-      "type": "color"
-    },
-    "sidebar-item-bg": {
-      "value": "#c4c4c400",
-      "type": "color"
-    },
-    "sidebar-item-bg-hover": {
-      "value": "#c4c4c400",
-      "type": "color"
-    },
-    "sidebar-item-bg-active": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "sidebar-icon": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "sidebar-icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "sidebar-icon-active": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "sidebar-text": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "sidebar-text-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "sidebar-text-active": {
-      "value": "#ad5cad",
-      "type": "color"
-    }
-  },
-  "badge": {
-    "emotional": {
-      "value": "#ffa717",
-      "type": "color"
-    },
-    "badge-alpha": {
-      "value": "#3abc31",
-      "type": "color"
-    }
-  },
-  "divider": {
-    "divider": {
-      "value": "#eae6e6",
-      "type": "color"
-    },
-    "divider-additional": {
-      "value": "#d9d9d9",
-      "type": "color"
-    }
-  },
-  "input": {
-    "input-icon": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "input-icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "input-icon-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "background-hover": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "dropdown-text-hover": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "dropdown-text-touch": {
-      "value": "#333333",
-      "type": "color"
-    }
-  },
-  "status": {
-    "error": {
-      "value": "#ff2222",
-      "type": "color"
-    },
-    "success": {
-      "value": "#68ba00",
-      "type": "color"
-    },
-    "no-reg": {
-      "value": "#d5ddeb",
-      "type": "color"
-    },
-    "event-warning": {
-      "value": "#fe6b00",
-      "type": "color"
-    }
-  },
-  "charts": {
-    "chart-1": {
-      "value": "#8cbb26",
-      "type": "color"
-    },
-    "chart-2": {
-      "value": "#ffa718",
-      "type": "color"
-    },
-    "chart-3": {
-      "value": "#38a8fa",
-      "type": "color"
-    },
-    "chart-4": {
-      "value": "#ad4cbe",
-      "type": "color"
-    },
-    "chart-5": {
-      "value": "#00b5b5",
-      "type": "color"
-    },
-    "chart-6": {
-      "value": "#485bbf",
-      "type": "color"
-    },
-    "chart-7": {
-      "value": "#8b7167",
-      "type": "color"
-    },
-    "chart-8": {
-      "value": "#009028",
-      "type": "color"
-    },
-    "chart-9": {
-      "value": "#b2b2b2",
-      "type": "color"
-    },
-    "chart-10": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "chart-1c": {
-      "value": "#f3fae6",
-      "type": "color"
-    },
-    "chart-2c": {
-      "value": "#fff3e0",
-      "type": "color"
-    },
-    "chart-3c": {
-      "value": "#e1f2fe",
-      "type": "color"
-    },
-    "chart-4c": {
-      "value": "#f5e9f7",
-      "type": "color"
-    },
-    "chart-5c": {
-      "value": "#e0ffff",
-      "type": "color"
-    },
-    "chart-6c": {
-      "value": "#e8ebf7",
-      "type": "color"
-    },
-    "chart-7c": {
-      "value": "#f2efed",
-      "type": "color"
-    },
-    "chart-8c": {
-      "value": "#e0ffe9",
-      "type": "color"
-    },
-    "chart-9c": {
-      "value": "#f0f0f0",
-      "type": "color"
-    },
-    "chart-10c": {
-      "value": "#f0f0f0",
-      "type": "color"
-    }
-  },
-  "call": {
-    "call-incoming": {
-      "value": "#29bf6e",
-      "type": "color"
-    },
-    "call-incoming-hover": {
-      "value": "#57c88b",
-      "type": "color"
-    },
-    "call-outgoing": {
-      "value": "#23b4e4",
-      "type": "color"
-    },
-    "call-outgoing-hover": {
-      "value": "#53c0e4",
-      "type": "color"
-    },
-    "call-missed": {
-      "value": "#f04c56",
-      "type": "color"
-    },
-    "call-missed-hover": {
-      "value": "#ed7279",
-      "type": "color"
-    },
-    "call-missedc": {
-      "value": "#ffe0e5",
-      "type": "color"
-    }
-  },
-  "buttons": {
-    "primary-bg": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "primary-bg-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "primary-bg-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "primary-bg-disabled": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "primary-bg-loading": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "primary-text": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-text-hover": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-text-touch": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-text-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "primary-icon": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-icon-hover": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-icon-touch": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "primary-icon-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "secondary-bg": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "secondary-bg-hover": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "secondary-bg-touch": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "secondary-bg-disabled": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "secondary-bg-loading": {
-      "value": "#e8eaef",
-      "type": "color"
-    },
-    "secondary-stroke": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "secondary-stroke-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "secondary-stroke-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "secondary-icon": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "secondary-icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "secondary-icon-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "secondary-icon-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "secondary-text": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "secondary-text-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "secondary-text-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "secondary-text-disabled": {
-      "value": "#948796",
-      "type": "color"
-    }
-  },
-  "icons": {
-    "icon-default": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "icon-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "icon-disabled": {
-      "value": "#948796",
-      "type": "color"
-    }
-  },
-  "tabs": {
-    "tab-bg-default": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "tab-bg-hover": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "tab-bg-touch": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "tab-bg-active": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-bg-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "tab-divider-default": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "tab-divider-hover": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "tab-divider-touch": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "tab-divider-active": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-divider-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "tab-divider-vertical-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "tab-text-default": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-text-hover": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-text-touch": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-text-active": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "tab-text-disabled": {
-      "value": "#948796",
-      "type": "color"
-    },
-    "tab-icon-default": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "tab-icon-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-icon-active": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "tab-icon-disabled": {
-      "value": "#948796",
-      "type": "color"
-    }
-  },
-  "switchers": {
-    "switch-bg-default": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "switch-bg-default-hover": {
-      "value": "#f7f6f9",
-      "type": "color"
-    },
-    "switch-bg-default-touch": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "switch-bg-active": {
-      "value": "#ad5cad",
-      "type": "color"
-    },
-    "switch-bg-active-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "switch-bg-active-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "switch-bg-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "switch-ellipse-active": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "switch-ellipse-disabled": {
-      "value": "#948796",
-      "type": "color"
-    }
-  },
-  "checkboxes": {
-    "checkbox-bg-unchecked": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "checkbox-bg-unchecked-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "checkbox-bg-checked": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "checkbox-bg-checked-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "checkbox-unchecked": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "checkbox-unchecked-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "checkbox-unchecked-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "checkbox-unchecked-disabled": {
-      "value": "#ffffff00",
-      "type": "color"
-    },
-    "checkbox-checked": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "checkbox-checked-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "checkbox-checked-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "checkbox-checked-disabled": {
-      "value": "#948796",
-      "type": "color"
-    }
-  },
-  "radiobuttons": {
-    "radiobutton-bg-unchecked": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "radiobutton-bg-unchecked-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "radiobutton-bg-checked": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "radiobutton-bg-checked-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "radiobutton-unchecked": {
-      "value": "#e3e9eb",
-      "type": "color"
-    },
-    "radiobutton-unchecked-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "radiobutton-unchecked-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "radiobutton-unchecked-disabled": {
-      "value": "#ffffff00",
-      "type": "color"
-    },
-    "radiobutton-checked": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "radiobutton-checked-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "radiobutton-checked-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "radiobutton-checked-disabled": {
-      "value": "#e3e9eb",
-      "type": "color"
-    }
-  },
-  "navigation": {
-    "tab-text-default": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-text-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "tab-text-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-text-active": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-icon-default": {
-      "value": "#333333",
-      "type": "color"
-    },
-    "tab-icon-hover": {
-      "value": "#993399",
-      "type": "color"
-    },
-    "tab-icon-touch": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-icon-active": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "tab-line": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "active-page": {
-      "value": "#7a297a",
-      "type": "color"
-    },
-    "sidebar-item-active-shadow": {
-      "value": {
-        "color": "#c9c1c973",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 3,
-        "blur": 10,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    },
-    "wide-sidebar-item-active-shadow": {
-      "value": {
-        "color": "#c9c1c945",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 3,
-        "blur": 10,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    }
-  },
-  "input-text": {
-    "working-hours up-down-buttons drop-shadow": {
-      "value": {
-        "color": "#00000026",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 2,
-        "blur": 8,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    }
-  },
-  "fontFamilies": {
-    "roboto": {
-      "value": "Roboto",
-      "type": "fontFamilies"
-    }
-  },
-  "lineHeights": {
-    "0": {
-      "value": "40",
-      "type": "lineHeights"
-    },
-    "1": {
-      "value": "32",
-      "type": "lineHeights"
-    },
-    "2": {
-      "value": "24",
-      "type": "lineHeights"
-    },
-    "3": {
-      "value": "16",
-      "type": "lineHeights"
-    },
-    "4": {
-      "value": "8",
-      "type": "lineHeights"
-    },
-    "5": {
-      "value": "10",
-      "type": "lineHeights"
-    },
-    "6": {
-      "value": "14",
-      "type": "lineHeights"
-    }
-  },
-  "fontWeights": {
-    "roboto-0": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "roboto-1": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
-    "roboto-2": {
-      "value": "Regular",
-      "type": "fontWeights"
-    }
-  },
-  "fontSize": {
-    "0": {
-      "value": "8",
-      "type": "fontSizes"
-    },
-    "1": {
-      "value": "10",
-      "type": "fontSizes"
-    },
-    "2": {
-      "value": "12",
-      "type": "fontSizes"
-    },
-    "3": {
-      "value": "14",
-      "type": "fontSizes"
-    },
-    "4": {
-      "value": "18",
-      "type": "fontSizes"
-    },
-    "5": {
-      "value": "24",
-      "type": "fontSizes"
-    },
-    "6": {
-      "value": "32",
-      "type": "fontSizes"
-    }
-  },
-  "letterSpacing": {
-    "0": {
-      "value": "0%",
-      "type": "letterSpacing"
-    },
-    "1": {
-      "value": "1",
-      "type": "letterSpacing"
-    }
-  },
-  "paragraphSpacing": {
-    "0": {
-      "value": "0",
-      "type": "paragraphSpacing"
-    },
-    "1": {
-      "value": "8",
-      "type": "paragraphSpacing"
-    },
-    "2": {
-      "value": "16",
-      "type": "paragraphSpacing"
-    },
-    "3": {
-      "value": "24",
-      "type": "paragraphSpacing"
-    }
-  },
-  "H1": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-0",
-      "lineHeight": "$lineHeights.0",
-      "fontSize": "$fontSize.6",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.3",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "H2": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-1",
-      "lineHeight": "$lineHeights.1",
-      "fontSize": "$fontSize.5",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.2",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "H3": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-1",
-      "lineHeight": "$lineHeights.2",
-      "fontSize": "$fontSize.4",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.2",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "P": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-2",
-      "lineHeight": "$lineHeights.2",
-      "fontSize": "$fontSize.3",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "P Bold": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-0",
-      "lineHeight": "$lineHeights.2",
-      "fontSize": "$fontSize.3",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Mark": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-2",
-      "lineHeight": "$lineHeights.3",
-      "fontSize": "$fontSize.2",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Mark Bold": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-0",
-      "lineHeight": "$lineHeights.3",
-      "fontSize": "$fontSize.2",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Small": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-2",
-      "lineHeight": "$lineHeights.3",
-      "fontSize": "$fontSize.1",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Table Header": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-1",
-      "lineHeight": "$lineHeights.3",
-      "fontSize": "$fontSize.3",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Table Cell": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-2",
-      "lineHeight": "$lineHeights.3",
-      "fontSize": "$fontSize.3",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.1",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Badge": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-0",
-      "lineHeight": "$lineHeights.4",
-      "fontSize": "$fontSize.0",
-      "letterSpacing": "$letterSpacing.1",
-      "paragraphSpacing": "$paragraphSpacing.0",
-      "textCase": "$textCase.uppercase",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Input Regular": {
-    "value": {
-      "fontFamily": "$fontFamilies.roboto",
-      "fontWeight": "$fontWeights.roboto-2",
-      "lineHeight": "$lineHeights.2",
-      "fontSize": "$fontSize.3",
-      "letterSpacing": "$letterSpacing.0",
-      "paragraphSpacing": "$paragraphSpacing.2",
-      "textCase": "$textCase.none",
-      "textDecoration": "$textDecoration.none"
-    },
-    "type": "typography"
-  },
-  "Input Medium": {
-  "value": {
-    "fontFamily": "$fontFamilies.roboto",
-    "fontWeight": "$fontWeights.roboto-1",
-    "lineHeight": "$lineHeights.2",
-    "fontSize": "$fontSize.3",
-    "letterSpacing": "$letterSpacing.0",
-    "paragraphSpacing": "$paragraphSpacing.2",
-    "textCase": "$textCase.none",
-    "textDecoration": "$textDecoration.none"
-  },
-  "type": "typography"
-},
-"Button": {
-  "value": {
-    "fontFamily": "$fontFamilies.roboto",
-    "fontWeight": "$fontWeights.roboto-1",
-    "lineHeight": "$lineHeights.5",
-    "fontSize": "$fontSize.3",
-    "letterSpacing": "$letterSpacing.0",
-    "paragraphSpacing": "$paragraphSpacing.0",
-    "textCase": "$textCase.none",
-    "textDecoration": "$textDecoration.none"
-  },
-  "type": "typography"
-},
-"Menu": {
-  "value": {
-    "fontFamily": "$fontFamilies.roboto",
-    "fontWeight": "$fontWeights.roboto-2",
-    "lineHeight": "$lineHeights.6",
-    "fontSize": "$fontSize.2",
-    "letterSpacing": "$letterSpacing.0",
-    "paragraphSpacing": "$paragraphSpacing.0",
-    "textCase": "$textCase.none",
-    "textDecoration": "$textDecoration.none"
-  },
-  "type": "typography"
-},
-"Menu Wide": {
-  "value": {
-    "fontFamily": "$fontFamilies.roboto",
-    "fontWeight": "$fontWeights.roboto-2",
-    "lineHeight": "$lineHeights.3",
-    "fontSize": "$fontSize.3",
-    "letterSpacing": "$letterSpacing.0",
-    "paragraphSpacing": "$paragraphSpacing.1",
-    "textCase": "$textCase.none",
-    "textDecoration": "$textDecoration.none"
-  },
-  "type": "typography"
-},
-"textCase": {
-  "none": {
-    "value": "none",
-    "type": "textCase"
-  },
-  "uppercase": {
-    "value": "uppercase",
-    "type": "textCase"
-  }
-},
-"textDecoration": {
-  "none": {
-    "value": "none",
-    "type": "textDecoration"
-  }
-}
 }
