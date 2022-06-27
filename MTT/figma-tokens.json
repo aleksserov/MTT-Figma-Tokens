@@ -59,375 +59,438 @@
             "transparent":      { "value": "#ffffff00", "type": "color" }
         },
 
-        "card/cardHeaderColor":      { "value": "#333333", "type": "color", "description": "Card-header (Color/Card)" },
-        "card/cardHeaderColorHover": { "value": "#993399", "type": "color", "description": "Card-header-hover (Color/Card)" },
-        "card/cardHeaderColorTouch": { "value": "#7A297A", "type": "color", "description": "Card-header-touch (Color/Card)" },
+        "card": {
+            "cardHeaderColor":      { "value": "#333333", "type": "color", "description": "Card-header (Color/Card)" },
+            "cardHeaderColorHover": { "value": "#993399", "type": "color", "description": "Card-header-hover (Color/Card)" },
+            "cardHeaderColorTouch": { "value": "#7A297A", "type": "color", "description": "Card-header-touch (Color/Card)" },
 
-        "mist/black":  { "value": "#000000", "type": "color", "description": "Black (Color/Mist)" },
-        "mist/white":  { "value": "#FFFFFF", "type": "color", "description": "White (Color/Mist)" },
-        "mist/mist5":  { "value": "#F7F6F9", "type": "color", "description": "Mist-5 (Color/Mist)" },
-        "mist/mist10": { "value": "#E8EAEF", "type": "color", "description": "Mist-10 (Color/Mist)" },
-        "mist/mist15": { "value": "#E3E9EB", "type": "color", "description": "Mist-15 (Color/Mist)" },
-        "mist/mist30": { "value": "#948796", "type": "color", "description": "Mist-30 (Color/Mist)" },
-        "mist/mist80": { "value": "#333333", "type": "color", "description": "Mist-80 (Color/Mist)" },
-        
-        "input/inputBorderColor":           { "value": "#D9D9D9", "type": "color", "description": "Input stroke (Color/Input)" },
-        "input/inputBorderColorHover":      { "value": "#948796", "type": "color", "description": "Input stroke hover (Color/Input)" },
-        "input/inputBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Input stroke touch (Color/Input)" },
-        "input/inputIconColor":             { "value": "#333333", "type": "color", "description": "Input-icon (Color/Input)" },
-        "input/inputIconColorHover":        { "value": "#993399", "type": "color", "description": "Input-icon-hover (Color/Input)" },
-        "input/inputIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Input-icon-touch (Color/Input)" },
-        "input/bgColorHover":               { "value": "#F7F6F9", "type": "color", "description": "Background-hover (Color/Input)" },
-        "input/comboboxItemTextColorHover": { "value": "#333333", "type": "color", "description": "Dropdown-text-hover (Color/Input)" },
-        "input/comboboxItemTextColorTouch": { "value": "#F7F6F9", "type": "color", "description": "Dropdown-text-touch (Color/Input)" },
+            "smsCardBgColor":              { "value": "#E8EAEF", "type": "color", "description": "Цвет текста активной смс (Смс визика/извинение)" },
 
-        "popup/iconBubbleShapeColor": { "value": "transparent", "type": "color", "description": "Icon-bubble-shape (Color/Popup)" },
-        "popup/listMarkerBgColor": { "value": "#AD5CAD", "type": "color", "description": "List-marker-bg (Color/Popup)" },
-        "popup/listMarkerColor": { "value": "#FFFFFF", "type": "color", "description": "List-marker-content (Color/Popup)" },
+            "crmFormSetupHeaderBgColor":   { "value": "#FFFFFF", "type": "color", "description": "Цвет фона хедера (Интеграция с CRM)" },
+            "crmFormSetupHeaderLogoColor": { "value": "transparent", "type": "color", "description": "Цвет логотипа партнёра (Интеграция с CRM)" },
+            "crmFormSetupHeaderColor":     { "value": "#333333", "type": "color", "description": "Цвет текста в хедере (Интеграция с CRM)" }
+        },
 
-        "scroll/scrollThumbColor": { "value": "#948796", "type": "color", "description": "Scroll (Color/Scroll)" },
-        "scroll/scrollThumbColorHover": { "value": "transparent", "type": "color", "description": "Scroll-hover (Color/Scroll)" },
-        "scroll/scrollThumbColorTouch": { "value": "transparent", "type": "color", "description": "Scroll-touch (Color/Scroll)" },
+        "mist": {
+            "black":  { "value": "#000000", "type": "color", "description": "Black (Color/Mist)" },
+            "white":  { "value": "#FFFFFF", "type": "color", "description": "White (Color/Mist)" },
+            "mist5":  { "value": "#F7F6F9", "type": "color", "description": "Mist-5 (Color/Mist)" },
+            "mist10": { "value": "#E8EAEF", "type": "color", "description": "Mist-10 (Color/Mist)" },
+            "mist15": { "value": "#E3E9EB", "type": "color", "description": "Mist-15 (Color/Mist)" },
+            "mist30": { "value": "#948796", "type": "color", "description": "Mist-30 (Color/Mist)" },
+            "mist80": { "value": "#333333", "type": "color", "description": "Mist-80 (Color/Mist)" }
+        },
 
-        "status/errorColor":    { "value": "#FF2222", "type": "color", "description": "Error (Color/Status)" },
-        "status/successColor":  { "value": "#68BA00", "type": "color", "description": "Success (Color/Status)" },
-        "status/noRegColor":    { "value": "#D5DDEB", "type": "color", "description": "No-reg (Color/Status)" },
-        "status/warningColor":  { "value": "#FE6B00", "type": "color", "description": "Event-warning (Color/Status)" },
+        "input": {
+            "inputBorderColor":           { "value": "#D9D9D9", "type": "color", "description": "Input stroke (Color/Input)" },
+            "inputBorderColorHover":      { "value": "#948796", "type": "color", "description": "Input stroke hover (Color/Input)" },
+            "inputBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Input stroke touch (Color/Input)" },
+            "inputIconColor":             { "value": "#333333", "type": "color", "description": "Input-icon (Color/Input)" },
+            "inputIconColorHover":        { "value": "#993399", "type": "color", "description": "Input-icon-hover (Color/Input)" },
+            "inputIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Input-icon-touch (Color/Input)" },
+            "bgColorHover":               { "value": "#F7F6F9", "type": "color", "description": "Background-hover (Color/Input)" },
+            "comboboxItemTextColorHover": { "value": "#333333", "type": "color", "description": "Dropdown-text-hover (Color/Input)" },
+            "comboboxItemTextColorTouch": { "value": "#F7F6F9", "type": "color", "description": "Dropdown-text-touch (Color/Input)" }
+        },
 
-        "call/callOutgoingColor":       { "value": "#23B4E4", "type": "color", "description": "Call-outgoing (Color/Call)" },
-        "call/callOutgoingColorHover":  { "value": "#53C0E4", "type": "color", "description": "Call-outgoing-hover (Color/Call)" },
-        "call/callIncomingColor":       { "value": "#29BF6E", "type": "color", "description": "Call-incoming (Color/Call)" },
-        "call/callIncomingColorHover":  { "value": "#57C88B", "type": "color", "description": "Call-incoming-hover (Color/Call)" },
-        "call/callMissedColor":         { "value": "#F04C56", "type": "color", "description": "Call-missed (Color/Call)" },
-        "call/callMissedColorHover":    { "value": "#ED7279", "type": "color", "description": "Call-missed-hover (Color/Call)" },
+        "popup": {
+            "iconBubbleShapeColor": { "value": "transparent", "type": "color", "description": "Icon-bubble-shape (Color/Popup)" },
+            "listMarkerBgColor": { "value": "#AD5CAD", "type": "color", "description": "List-marker-bg (Color/Popup)" },
+            "listMarkerColor": { "value": "#FFFFFF", "type": "color", "description": "List-marker-content (Color/Popup)" }
+        },
 
-        "badge/badgeAlphaColor": { "value": "#3ABC31", "type": "color", "description": "Badge-alpha (Color/Badge)" },
-        "badge/badgeGradeColor": { "value": "transparent", "type": "color", "description": "Badge-grade (Color/Badge)" },
+        "scroll": {
+            "scrollThumbColor": { "value": "#948796", "type": "color", "description": "Scroll (Color/Scroll)" },
+            "scrollThumbColorHover": { "value": "transparent", "type": "color", "description": "Scroll-hover (Color/Scroll)" },
+            "scrollThumbColorTouch": { "value": "transparent", "type": "color", "description": "Scroll-touch (Color/Scroll)" }
+        },
 
-        "sidebar/sidebarBgColor":           { "value": "transparent", "type": "color", "description": "Sidebar-bg (Color/Navigation)" },
-        "sidebar/sidebarLogoColor":         { "value": "#993399", "type": "color", "description": "Sidebar-logo-color (Color/Navigation)" },
-        "sidebar/sidebarItemBgColor":       { "value": "transparent", "type": "color", "description": "Sidebar-item-bg (Color/Navigation)" },
-        "sidebar/sidebarItemBgColorHover":  { "value": "transparent", "type": "color", "description": "Sidebar-item-bg-hover (Color/Navigation)" },
-        "sidebar/sidebarItemBgColorActive": { "value": "#FFFFFF", "type": "color", "description": "Sidebar-item-bg-active (Color/Navigation)" },
-        "sidebar/sidebarIconColor":         { "value": "#333333", "type": "color", "description": "Sidebar-icon (Color/Navigation)" },
-        "sidebar/sidebarIconColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-icon-hover (Color/Navigation)" },
-        "sidebar/sidebarIconColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-icon-active (Color/Navigation)" },
-        "sidebar/sidebarTextColor":         { "value": "#333333", "type": "color", "description": "Sidebar-text (Color/Navigation)" },
-        "sidebar/sidebarTextColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-text-hover (Color/Navigation)" },
-        "sidebar/sidebarTextColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-text-active (Color/Navigation)" },
+        "status": {
+            "errorColor":    { "value": "#FF2222", "type": "color", "description": "Error (Color/Status)" },
+            "successColor":  { "value": "#68BA00", "type": "color", "description": "Success (Color/Status)" },
+            "noRegColor":    { "value": "#D5DDEB", "type": "color", "description": "No-reg (Color/Status)" },
+            "warningColor":  { "value": "#FE6B00", "type": "color", "description": "Event-warning (Color/Status)" }
+        },
 
-        "tab/tabPrimaryTextColor":              { "value": "#333333", "type": "color", "description": "Tab-text-default (Color/Tab)" },
-        "tab/tabPrimaryTextColorHover":         { "value": "#993399", "type": "color", "description": "Tab-text-hover (Color/Tab)" },
-        "tab/tabPrimaryTextColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-text-touch (Color/Tab)" },
-        "tab/tabPrimaryTextColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-text-active (Color/Tab)" },
-        "tab/tabPrimaryIconColor":              { "value": "#333333", "type": "color", "description": "Tab-icon-default (Color/Tab)" },
-        "tab/tabPrimaryIconColorHover":         { "value": "#993399", "type": "color", "description": "Tab-icon-hover (Color/Tab)" },
-        "tab/tabPrimaryIconColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-icon-touch (Color/Tab)" },
-        "tab/tabPrimaryIconColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-icon-active (Color/Tab)" },
-        "tab/tabPrimaryLineColor":              { "value": "transparent", "type": "color", "description": "Tab-line-default (Color/Tab)" },
-        "tab/tabPrimaryLineColorHover":         { "value": "transparent", "type": "color", "description": "Tab-line-hover (Color/Tab)" },
-        "tab/tabPrimaryLineColorTouch":         { "value": "transparent", "type": "color", "description": "Tab-line-touch (Color/Tab)" },
-        "tab/tabPrimaryLineColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-line-active (Color/Tab)" },
-        "tab/tabPrimaryLineColorActiveHover":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-hover (Color/Tab)" },
-        "tab/tabPrimaryLineColorActiveTouch":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-touch (Color/Tab)" },
-    
-        "tab/tabSecondaryBgColor":              { "value": "#FFFFFF", "type": "color", "description": "Switcher-bg-default (Color/Tab)" },
-        "tab/tabSecondaryBgColorHover":         { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-hover (Color/Tab)" },
-        "tab/tabSecondaryBgColorTouch":         { "value": "#E3E9EB", "type": "color", "description": "Switcher-bg-touch (Color/Tab)" },
-        "tab/tabSecondaryBgColorActive":        { "value": "#7A297A", "type": "color", "description": "Switcher-bg-active (Color/Tab)" },
-        "tab/tabSecondaryBgColorDisabled":      { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-disabled (Color/Tab)" },
-        "tab/tabSecondaryBorderColor":          { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-default (Color/Tab)" },
-        "tab/tabSecondaryBorderColorHover":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-hover (Color/Tab)" },
-        "tab/tabSecondaryBorderColorTouch":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-touch (Color/Tab)" },
-        "tab/tabSecondaryBorderColorActive":    { "value": "#7A297A", "type": "color", "description": "Switcher-divider-active (Color/Tab)" },
-        "tab/tabSecondaryBorderColorDisabled":  { "value": "#948796", "type": "color", "description": "Switcher-divider-disabled (Color/Tab)" },
-        "tab/tabSecondaryColor":                { "value": "#333333", "type": "color", "description": "Switcher-text-default (Color/Tab)" },
-        "tab/tabSecondaryColorHover":           { "value": "#333333", "type": "color", "description": "Switcher-text-hover (Color/Tab)" },
-        "tab/tabSecondaryColorTouch":           { "value": "#333333", "type": "color", "description": "Switcher-text-touch (Color/Tab)" },
-        "tab/tabSecondaryColorActive":          { "value": "#FFFFFF", "type": "color", "description": "Switcher-text-active (Color/Tab)" },
-        "tab/tabSecondaryColorDisabled":        { "value": "#948796", "type": "color", "description": "Switcher-text-disabled (Color/Tab)" },
-        "tab/tabSecondaryIconColor":            { "value": "#333333", "type": "color", "description": "Switcher-icon-default (Color/Tab)" },
-        "tab/tabSecondaryIconColorHover":       { "value": "#993399", "type": "color", "description": "Switcher-icon-hover (Color/Tab)" },
-        "tab/tabSecondaryIconColorTouch":       { "value": "#7A297A", "type": "color", "description": "Switcher-icon-touch (Color/Tab)" },
-        "tab/tabSecondaryIconColorActive":      { "value": "#FFFFFF", "type": "color", "description": "Switcher-icon-active (Color/Tab)" },
-        "tab/tabSecondaryIconColorDisabled":    { "value": "#948796", "type": "color", "description": "Switcher-icon-disabled (Color/Tab)" },
-    
-        "navigation/breadCrumbColorActive": { "value": "#7A297A", "type": "color", "description": "Second-active (Color/Navigation)" },
-        "navigation/headerBarBgColor":      { "value": "transparent", "type": "color", "description": "Userbar-bg (Color/Navigation)" },
-    
-        "button/btnPrimaryBgColor":                 { "value": "#AD5CAD", "type": "color", "description": "Primary-bg (Color/Button)" },
-        "button/btnPrimaryBgColorHover":            { "value": "#993399", "type": "color", "description": "Primary-bg-hover (Color/Button)" },
-        "button/btnPrimaryBgColorTouch":            { "value": "#7A297A", "type": "color", "description": "Primary-bg-touch (Color/Button)" },
-        "button/btnPrimaryBgColorDisabled":         { "value": "#F7F6F9", "type": "color", "description": "Primary-bg-disabled (Color/Button)" },
-        "button/btnPrimaryTextColor":               { "value": "#FFFFFF", "type": "color", "description": "Primary-text (Color/Button)" },
-        "button/btnPrimaryTextColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-hover (Color/Button)" },
-        "button/btnPrimaryTextColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-touch (Color/Button)" },
-        "button/btnPrimaryTextColorDisabled":       { "value": "#948796", "type": "color", "description": "Primary-text-disabled (Color/Button)" },
-        "button/btnSecondaryBgColor":               { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg (Color/Button)" },
-        "button/btnSecondaryBgColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-hover (Color/Button)" },
-        "button/btnSecondaryBgColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-touch (Color/Button)" },
-        "button/btnSecondaryBgColorDisabled":       { "value": "#F7F6F9", "type": "color", "description": "Secondary-bg-disabled (Color/Button)" },
-        "button/btnSecondaryBorderColor":           { "value": "#AD5CAD", "type": "color", "description": "Secondary-stroke (Color/Button)" },
-        "button/btnSecondaryBorderColorHover":      { "value": "#993399", "type": "color", "description": "Secondary-stroke-hover (Color/Button)" },
-        "button/btnSecondaryBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Secondary-stroke-touch (Color/Button)" },
-        "button/btnSecondaryBorderColorDisabled":   { "value": "transparent", "type": "color", "description": "Secondary-stroke-disabled (Color/Button)" },
-        "button/btnSecondaryIconColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-icon (Color/Button)" },
-        "button/btnSecondaryIconColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-icon-hover (Color/Button)" },
-        "button/btnSecondaryIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-icon-touch (Color/Button)" },
-        "button/btnSecondaryTextColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-text (Color/Button)" },
-        "button/btnSecondaryTextColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-text-hover (Color/Button)" },
-        "button/btnSecondaryTextColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-text-touch (Color/Button)" },
-        "button/btnSecondaryTextColorDisabled":     { "value": "#948796", "type": "color", "description": "Secondary-text-disabled (Color/Button)" },
-        "button/iconColor":                         { "value": "#333333", "type": "color", "description": "Icon-default (Color/Button)" },
-        "button/iconColorHover":                    { "value": "#993399", "type": "color", "description": "Icon-hover (Color/Button)" },
-        "button/iconColorTouch":                    { "value": "#7A297A", "type": "color", "description": "Icon-touch (Color/Button)" },
-        "button/iconColorDisabled":                 { "value": "#948796", "type": "color", "description": "Icon-disabled (Color/Button)" },
-    
-        "button/btnCountBgColor":           { "value": "transparent", "type": "color", "description": "Quantity-bg (Color/Button)" },
-        "button/btnCountBgColorHover":      { "value": "transparent", "type": "color", "description": "Quantity-bg-hover (Color/Button)" },
-        "button/btnCountBgColorTouch":      { "value": "transparent", "type": "color", "description": "Quantity-bg-touch (Color/Button)" },
-        "button/btnCountBgColorDisabled":   { "value": "transparent", "type": "color", "description": "Quantity-bg-disabled (Color/Button)" },
-        "button/btnCountColor":             { "value": "#AD5CAD", "type": "color", "description": "Quantity-content (Color/Button)" },
-        "button/btnCountColorHover":        { "value": "#993399", "type": "color", "description": "Quantity-content-hover (Color/Button)" },
-        "button/btnCountColorTouch":        { "value": "#7A297A", "type": "color", "description": "Quantity-content-touch (Color/Button)" },
-        "button/btnCountColorDisabled":     { "value": "#E3E9EB", "type": "color", "description": "Quantity-content-disabled (Color/Button)" },
+        "call": {
+            "callOutgoingColor":       { "value": "#23B4E4", "type": "color", "description": "Call-outgoing (Color/Call)" },
+            "callOutgoingColorHover":  { "value": "#53C0E4", "type": "color", "description": "Call-outgoing-hover (Color/Call)" },
+            "callIncomingColor":       { "value": "#29BF6E", "type": "color", "description": "Call-incoming (Color/Call)" },
+            "callIncomingColorHover":  { "value": "#57C88B", "type": "color", "description": "Call-incoming-hover (Color/Call)" },
+            "callMissedColor":         { "value": "#F04C56", "type": "color", "description": "Call-missed (Color/Call)" },
+            "callMissedColorHover":    { "value": "#ED7279", "type": "color", "description": "Call-missed-hover (Color/Call)" }
+        },
 
-        "button/paginationBgColor":             { "value": "transparent", "type": "color", "description": "Pagination-bg (Color/Button)" },
-        "button/paginationBgColorHover":        { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-hover (Color/Button)" },
-        "button/paginationBgColorTouch":        { "value": "#E3E9EB", "type": "color", "description": "Pagination-bg-touch (Color/Button)" },
-        "button/paginationBgColorActive":       { "value": "#7A297A", "type": "color", "description": "Pagination-bg-active (Color/Button)" },
-        "button/paginationBgColorDisabled":     { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-disabled (Color/Button)" },
-        "button/paginationBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke (Color/Button)" },
-        "button/paginationBorderColorHover":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-hover (Color/Button)" },
-        "button/paginationBorderColorTouch":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-touch (Color/Button)" },
-        "button/paginationBorderColorActive":   { "value": "#7A297A", "type": "color", "description": "Pagination-stroke-active (Color/Button)" },
-        "button/paginationBorderColorDisabled": { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-disabled (Color/Button)" },
-        "button/paginationColor":               { "value": "#AD5CAD", "type": "color", "description": "Pagination-page (Color/Button)" },
-        "button/paginationColorHover":          { "value": "#993399", "type": "color", "description": "Pagination-page-hover (Color/Button)" },
-        "button/paginationColorTouch":          { "value": "#7A297A", "type": "color", "description": "Pagination-page-touch (Color/Button)" },
-        "button/paginationColorActive":         { "value": "#FFFFFF", "type": "color", "description": "Pagination-page-active (Color/Button)" },
-        "button/paginationColorDisabled":       { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" },
-        "button/paginationIconColor":           { "value": "#AD5CAD", "type": "color", "description": "Pagination-scrollbtn (Color/Button)" },
-        "button/paginationIconColorHover":      { "value": "#993399", "type": "color", "description": "Pagination-scrollbtn-hover (Color/Button)" },
-        "button/paginationIconColorTouch":      { "value": "#7A297A", "type": "color", "description": "Pagination-scrollbtn-touch (Color/Button)" },
-        "button/paginationIconColorDisabled":   { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" },
+        "badge": {
+            "badgeAlphaColor": { "value": "#3ABC31", "type": "color", "description": "Badge-alpha (Color/Badge)" },
+            "badgeGradeColor": { "value": "transparent", "type": "color", "description": "Badge-grade (Color/Badge)" }
+        },
 
-        "selector/switchBgColor":               { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default (Color/Selector)" },
-        "selector/switchBgColorHover":          { "value": "#F7F6F9", "type": "color", "description": "Toggle-bg-default-hover (Color/Selector)" },
-        "selector/switchBgColorTouch":          { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default-touch (Color/Selector)" },
-        "selector/switchBgColorActive":         { "value": "#AD5CAD", "type": "color", "description": "Toggle-bg-active (Color/Selector)" },
-        "selector/switchBgColorActiveHover":    { "value": "#993399", "type": "color", "description": "Toggle-bg-active-hover (Color/Selector)" },
-        "selector/switchBgColorActiveTouch":    { "value": "#7A297A", "type": "color", "description": "Toggle-bg-active-touch (Color/Selector)" },
-        "selector/switchBgColorDisabled":       { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-disabled (Color/Selector)" },
-        "selector/switchEllipseColor":          { "value": "#FFFFFF", "type": "color", "description": "Toggle-ellipse-active (Color/Selector)" },
-        "selector/switchEllipseColorDisabled":  { "value": "#948796", "type": "color", "description": "Toggle-ellipse-disabled (Color/Selector)" },
+        "sidebar": {
+            "sidebarBgColor":           { "value": "transparent", "type": "color", "description": "Sidebar-bg (Color/Navigation)" },
+            "sidebarLogoColor":         { "value": "#993399", "type": "color", "description": "Sidebar-logo-color (Color/Navigation)" },
+            "sidebarItemBgColor":       { "value": "transparent", "type": "color", "description": "Sidebar-item-bg (Color/Navigation)" },
+            "sidebarItemBgColorHover":  { "value": "transparent", "type": "color", "description": "Sidebar-item-bg-hover (Color/Navigation)" },
+            "sidebarItemBgColorActive": { "value": "#FFFFFF", "type": "color", "description": "Sidebar-item-bg-active (Color/Navigation)" },
+            "sidebarIconColor":         { "value": "#333333", "type": "color", "description": "Sidebar-icon (Color/Navigation)" },
+            "sidebarIconColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-icon-hover (Color/Navigation)" },
+            "sidebarIconColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-icon-active (Color/Navigation)" },
+            "sidebarTextColor":         { "value": "#333333", "type": "color", "description": "Sidebar-text (Color/Navigation)" },
+            "sidebarTextColorHover":    { "value": "#993399", "type": "color", "description": "Sidebar-text-hover (Color/Navigation)" },
+            "sidebarTextColorActive":   { "value": "#AD5CAD", "type": "color", "description": "Sidebar-text-active (Color/Navigation)" }
+        },
 
-        "selector/checkboxUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg (Color/Selector)" },
-        "selector/checkboxUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Hover (Color/Selector)" },
-        "selector/checkboxUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Touch (Color/Selector)" },
-        "selector/checkboxUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Bg-Disabled (Color/Selector)" },
-        "selector/checkboxUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Border (Color/Selector)" },
-        "selector/checkboxUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "Checkbox-Unchecked-Border-Hover (Color/Selector)" },
-        "selector/checkboxUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "Checkbox-Unchecked-Border-Touch (Color/Selector)" },
-        "selector/checkboxUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "Checkbox-Unchecked-Border-Disabled (Color/Selector)" },
-        "selector/checkboxCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg (Color/Selector)" },
-        "selector/checkboxCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Hover (Color/Selector)" },
-        "selector/checkboxCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Touch (Color/Selector)" },
-        "selector/checkboxCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Checked-Bg-Disabled (Color/Selector)" },
-        "selector/checkboxCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border (Color/Selector)" },
-        "selector/checkboxCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Border-Hover (Color/Selector)" },
-        "selector/checkboxCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border-Touch (Color/Selector)" },
-        "selector/checkboxCheckedBorderColorDisabled":      { "value": "transparent", "type": "color", "description": "Checkbox-Checked-Border-Disabled (Color/Selector)" },
-        "selector/checkboxCheckedIconColor":                { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon (Color/Selector)" },
-        "selector/checkboxCheckedIconColorHover":           { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Icon-Hover (Color/Selector)" },
-        "selector/checkboxCheckedIconColorTouch":           { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon-Touch (Color/Selector)" },
-        "selector/checkboxCheckedIconColorDisabled":        { "value": "#948796", "type": "color", "description": "Checkbox-Checked-Icon-Disabled (Color/Selector)" },
-    
-        "selector/radioBtnUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg (Color/Selector)" },
-        "selector/radioBtnUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Hover (Color/Selector)" },
-        "selector/radioBtnUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Touch (Color/Selector)" },
-        "selector/radioBtnUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Bg-Disabled (Color/Selector)" },
-        "selector/radioBtnUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Border (Color/Selector)" },
-        "selector/radioBtnUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "RadioBtn-Unchecked-Border-Hover (Color/Selector)" },
-        "selector/radioBtnUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "RadioBtn-Unchecked-Border-Touch (Color/Selector)" },
-        "selector/radioBtnUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Border-Disabled (Color/Selector)" },
-        "selector/radioBtnUncheckedCircleColor":            { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle (Color/Selector)" },
-        "selector/radioBtnUncheckedCircleColorHover":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Hover (Color/Selector)" },
-        "selector/radioBtnUncheckedCircleColorTouch":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Touch (Color/Selector)" },
-        "selector/radioBtnUncheckedCircleColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Disabled (Color/Selector)" },
-        "selector/radioBtnCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg (Color/Selector)" },
-        "selector/radioBtnCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Hover (Color/Selector)" },
-        "selector/radioBtnCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Touch (Color/Selector)" },
-        "selector/radioBtnCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Bg-Disabled (Color/Selector)" },
-        "selector/radioBtnCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border (Color/Selector)" },
-        "selector/radioBtnCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Border-Hover (Color/Selector)" },
-        "selector/radioBtnCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border-Touch (Color/Selector)" },
-        "selector/radioBtnCheckedBorderColorDisabled":      { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Border-Disabled (Color/Selector)" },
-        "selector/radioBtnCheckedCircleColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle (Color/Selector)" },
-        "selector/radioBtnCheckedCircleColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Circle-Hover (Color/Selector)" },
-        "selector/radioBtnCheckedCircleColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle-Touch (Color/Selector)" },
-        "selector/radioBtnCheckedCircleColorDisabled":      { "value": "#948796", "type": "color", "description": "RadioBtn-Checked-Circle-Disabled (Color/Selector)" },
-    
-        "package/packageBgColor":             { "value": "#FFFFFF", "type": "color", "description": "Package-bg-default (Color/Package)" },
-        "package/packageBgColorHover":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-hover (Color/Package)" },
-        "package/packageBgColorTouch":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-touch (Color/Package)" },
-        "package/packageBoughtBgColor":       { "value": "#AD5CAD", "type": "color", "description": "Package-bought-bg-default (Color/Package)" },
-        "package/packageBoughtBgColorHover":  { "value": "#993399", "type": "color", "description": "Package-bought-bg-hover (Color/Package)" },
-        "package/packageBoughtBgColorTouch":  { "value": "#7A297A", "type": "color", "description": "Package-bought-bg-touch (Color/Package)" },
-        "package/packageBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Package-stroke-default (Color/Package)" },
-        "package/packageBorderColorHover":    { "value": "transparent", "type": "color", "description": "Package-stroke-hover (Color/Package)" },
-        "package/packageBorderColorTouch":    { "value": "transparent", "type": "color", "description": "Package-stroke-touch (Color/Package)" },
-        "package/packageBoughtBorderColor":   { "value": "transparent", "type": "color", "description": "Package-bought-stroke-default (Color/Package)" },
-    
-        "notify/notificatorTextColor":              { "value": "#333333", "type": "color", "description": "Цвет текста (Нотификатор)" },
-        "notify/notificatorIconInfoColor":          { "value": "#333333", "type": "color", "description": "Цвет иконки в информационном нотификаторе (Нотификатор)" },
-        "notify/notificatorIconSuccessColor":       { "value": "#68BA00", "type": "color", "description": "Цвет иконки в успешном нотификаторе (Нотификатор)" },
-        "notify/notificatorIconErrorColor":         { "value": "#FF2222", "type": "color", "description": "Цвет иконки в нотификаторе с ошибкой (Нотификатор)" },
-        "notify/notificatorInfoBgColor":            { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
-        "notify/notificatorSuccessBgColor":         { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в успешном нотификаторе (Нотификатор)" },
-        "notify/notificatorErrorBgColor":           { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
-        "notify/notificatorCloseIconColorHover":    { "value": "#993399", "type": "color", "description": "Цвет иконки закрытия при ховере (Нотификатор)" },
-        "notify/notificatorCloseIconColorTouch":    { "value": "#7A297A", "type": "color", "description": "Цвет иконки закрытия при нажатии (Нотификатор)" },
+        "tab": {
+            "tabPrimaryTextColor":              { "value": "#333333", "type": "color", "description": "Tab-text-default (Color/Tab)" },
+            "tabPrimaryTextColorHover":         { "value": "#993399", "type": "color", "description": "Tab-text-hover (Color/Tab)" },
+            "tabPrimaryTextColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-text-touch (Color/Tab)" },
+            "tabPrimaryTextColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-text-active (Color/Tab)" },
+            "tabPrimaryIconColor":              { "value": "#333333", "type": "color", "description": "Tab-icon-default (Color/Tab)" },
+            "tabPrimaryIconColorHover":         { "value": "#993399", "type": "color", "description": "Tab-icon-hover (Color/Tab)" },
+            "tabPrimaryIconColorTouch":         { "value": "#7A297A", "type": "color", "description": "Tab-icon-touch (Color/Tab)" },
+            "tabPrimaryIconColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-icon-active (Color/Tab)" },
+            "tabPrimaryLineColor":              { "value": "transparent", "type": "color", "description": "Tab-line-default (Color/Tab)" },
+            "tabPrimaryLineColorHover":         { "value": "transparent", "type": "color", "description": "Tab-line-hover (Color/Tab)" },
+            "tabPrimaryLineColorTouch":         { "value": "transparent", "type": "color", "description": "Tab-line-touch (Color/Tab)" },
+            "tabPrimaryLineColorActive":        { "value": "#7A297A", "type": "color", "description": "Tab-line-active (Color/Tab)" },
+            "tabPrimaryLineColorActiveHover":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-hover (Color/Tab)" },
+            "tabPrimaryLineColorActiveTouch":   { "value": "#7A297A", "type": "color", "description": "Tab-line-active-touch (Color/Tab)" },
 
-        "player/playerModalBgColor":                    { "value": "#FFFFFF", "type": "color", "description": "Цвет фона (Модальный плеер)" },
-        "player/playerModalColor":                      { "value": "#333333", "type": "color", "description": "Цвет текста (Модальный плеер)" },
-        "player/playerModalColorDisabled":              { "value": "#948796", "type": "color", "description": "Цвет текста при загрузке мелодии (Модальный плеер)" },
-        "player/playerModalIconColor":                  { "value": "#333333", "type": "color", "description": "Цвет иконок (Модальный плеер)" },
-        "player/playerModalIconColorHover":             { "value": "#993399", "type": "color", "description": "Цвет иконок при наведении мышки (Модальный плеер)" },
-        "player/playerModalIconColorTouch":             { "value": "#7A297A", "type": "color", "description": "Цвет иконок при нажатии мышки (Модальный плеер)" },
-        "player/playerModalIconColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Цвет иконок при загрузке (Модальный плеер)" },
-        "player/playerModalThumbColor":                 { "value": "#7A297A", "type": "color", "description": "Цвет овала на шкале прогресса (Модальный плеер)" },
-        "player/playerModalProgressBgColor":            { "value": "#E8EAEF", "type": "color", "description": "Цвет фона шкалы прогресса (Модальный плеер)" },
-        "player/playerModalProgressBgColorActive":      { "value": "#7A297A", "type": "color", "description": "Цвет фона шкалы загруженного прогресса (Модальный плеер)" },
-        "player/playerModalProgressBgColorLoading":     { "value": "#F7F6F9", "type": "color", "description": "Цвет фона шкалы прогресса во время загрузки (Модальный плеер)" },
-        "player/playerModalProgressBarColorLoading":    { "value": "#E8EAEF", "type": "color", "description": "Цвет баров шкалы прогресса во время загрузки (Модальный плеер)" },
+            "tabSecondaryBgColor":              { "value": "#FFFFFF", "type": "color", "description": "Switcher-bg-default (Color/Tab)" },
+            "tabSecondaryBgColorHover":         { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-hover (Color/Tab)" },
+            "tabSecondaryBgColorTouch":         { "value": "#E3E9EB", "type": "color", "description": "Switcher-bg-touch (Color/Tab)" },
+            "tabSecondaryBgColorActive":        { "value": "#7A297A", "type": "color", "description": "Switcher-bg-active (Color/Tab)" },
+            "tabSecondaryBgColorDisabled":      { "value": "#F7F6F9", "type": "color", "description": "Switcher-bg-disabled (Color/Tab)" },
+            "tabSecondaryBorderColor":          { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-default (Color/Tab)" },
+            "tabSecondaryBorderColorHover":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-hover (Color/Tab)" },
+            "tabSecondaryBorderColorTouch":     { "value": "#E3E9EB", "type": "color", "description": "Switcher-divider-touch (Color/Tab)" },
+            "tabSecondaryBorderColorActive":    { "value": "#7A297A", "type": "color", "description": "Switcher-divider-active (Color/Tab)" },
+            "tabSecondaryBorderColorDisabled":  { "value": "#948796", "type": "color", "description": "Switcher-divider-disabled (Color/Tab)" },
+            "tabSecondaryColor":                { "value": "#333333", "type": "color", "description": "Switcher-text-default (Color/Tab)" },
+            "tabSecondaryColorHover":           { "value": "#333333", "type": "color", "description": "Switcher-text-hover (Color/Tab)" },
+            "tabSecondaryColorTouch":           { "value": "#333333", "type": "color", "description": "Switcher-text-touch (Color/Tab)" },
+            "tabSecondaryColorActive":          { "value": "#FFFFFF", "type": "color", "description": "Switcher-text-active (Color/Tab)" },
+            "tabSecondaryColorDisabled":        { "value": "#948796", "type": "color", "description": "Switcher-text-disabled (Color/Tab)" },
+            "tabSecondaryIconColor":            { "value": "#333333", "type": "color", "description": "Switcher-icon-default (Color/Tab)" },
+            "tabSecondaryIconColorHover":       { "value": "#993399", "type": "color", "description": "Switcher-icon-hover (Color/Tab)" },
+            "tabSecondaryIconColorTouch":       { "value": "#7A297A", "type": "color", "description": "Switcher-icon-touch (Color/Tab)" },
+            "tabSecondaryIconColorActive":      { "value": "#FFFFFF", "type": "color", "description": "Switcher-icon-active (Color/Tab)" },
+            "tabSecondaryIconColorDisabled":    { "value": "#948796", "type": "color", "description": "Switcher-icon-disabled (Color/Tab)" }
+        },
 
-        "card/smsCardBgColor":              { "value": "#E8EAEF", "type": "color", "description": "Цвет текста активной смс (Смс визика/извинение)" },
-        "card/crmFormSetupHeaderBgColor":   { "value": "#FFFFFF", "type": "color", "description": "Цвет фона хедера (Интеграция с CRM)" },
-        "card/crmFormSetupHeaderLogoColor": { "value": "transparent", "type": "color", "description": "Цвет логотипа партнёра (Интеграция с CRM)" },
-        "card/crmFormSetupHeaderColor":     { "value": "#333333", "type": "color", "description": "Цвет текста в хедере (Интеграция с CRM)" }
+        "navigation": {
+            "breadCrumbColorActive": { "value": "#7A297A", "type": "color", "description": "Second-active (Color/Navigation)" },
+            "headerBarBgColor":      { "value": "transparent", "type": "color", "description": "Userbar-bg (Color/Navigation)" }
+        },
+
+        "button": {
+            "btnPrimaryBgColor":                 { "value": "#AD5CAD", "type": "color", "description": "Primary-bg (Color/Button)" },
+            "btnPrimaryBgColorHover":            { "value": "#993399", "type": "color", "description": "Primary-bg-hover (Color/Button)" },
+            "btnPrimaryBgColorTouch":            { "value": "#7A297A", "type": "color", "description": "Primary-bg-touch (Color/Button)" },
+            "btnPrimaryBgColorDisabled":         { "value": "#F7F6F9", "type": "color", "description": "Primary-bg-disabled (Color/Button)" },
+            "btnPrimaryTextColor":               { "value": "#FFFFFF", "type": "color", "description": "Primary-text (Color/Button)" },
+            "btnPrimaryTextColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-hover (Color/Button)" },
+            "btnPrimaryTextColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Primary-text-touch (Color/Button)" },
+            "btnPrimaryTextColorDisabled":       { "value": "#948796", "type": "color", "description": "Primary-text-disabled (Color/Button)" },
+            "btnSecondaryBgColor":               { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg (Color/Button)" },
+            "btnSecondaryBgColorHover":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-hover (Color/Button)" },
+            "btnSecondaryBgColorTouch":          { "value": "#FFFFFF", "type": "color", "description": "Secondary-bg-touch (Color/Button)" },
+            "btnSecondaryBgColorDisabled":       { "value": "#F7F6F9", "type": "color", "description": "Secondary-bg-disabled (Color/Button)" },
+            "btnSecondaryBorderColor":           { "value": "#AD5CAD", "type": "color", "description": "Secondary-stroke (Color/Button)" },
+            "btnSecondaryBorderColorHover":      { "value": "#993399", "type": "color", "description": "Secondary-stroke-hover (Color/Button)" },
+            "btnSecondaryBorderColorTouch":      { "value": "#7A297A", "type": "color", "description": "Secondary-stroke-touch (Color/Button)" },
+            "btnSecondaryBorderColorDisabled":   { "value": "transparent", "type": "color", "description": "Secondary-stroke-disabled (Color/Button)" },
+            "btnSecondaryIconColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-icon (Color/Button)" },
+            "btnSecondaryIconColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-icon-hover (Color/Button)" },
+            "btnSecondaryIconColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-icon-touch (Color/Button)" },
+            "btnSecondaryTextColor":             { "value": "#AD5CAD", "type": "color", "description": "Secondary-text (Color/Button)" },
+            "btnSecondaryTextColorHover":        { "value": "#993399", "type": "color", "description": "Secondary-text-hover (Color/Button)" },
+            "btnSecondaryTextColorTouch":        { "value": "#7A297A", "type": "color", "description": "Secondary-text-touch (Color/Button)" },
+            "btnSecondaryTextColorDisabled":     { "value": "#948796", "type": "color", "description": "Secondary-text-disabled (Color/Button)" },
+            "iconColor":                         { "value": "#333333", "type": "color", "description": "Icon-default (Color/Button)" },
+            "iconColorHover":                    { "value": "#993399", "type": "color", "description": "Icon-hover (Color/Button)" },
+            "iconColorTouch":                    { "value": "#7A297A", "type": "color", "description": "Icon-touch (Color/Button)" },
+            "iconColorDisabled":                 { "value": "#948796", "type": "color", "description": "Icon-disabled (Color/Button)" },
+
+            "btnCountBgColor":           { "value": "transparent", "type": "color", "description": "Quantity-bg (Color/Button)" },
+            "btnCountBgColorHover":      { "value": "transparent", "type": "color", "description": "Quantity-bg-hover (Color/Button)" },
+            "btnCountBgColorTouch":      { "value": "transparent", "type": "color", "description": "Quantity-bg-touch (Color/Button)" },
+            "btnCountBgColorDisabled":   { "value": "transparent", "type": "color", "description": "Quantity-bg-disabled (Color/Button)" },
+            "btnCountColor":             { "value": "#AD5CAD", "type": "color", "description": "Quantity-content (Color/Button)" },
+            "btnCountColorHover":        { "value": "#993399", "type": "color", "description": "Quantity-content-hover (Color/Button)" },
+            "btnCountColorTouch":        { "value": "#7A297A", "type": "color", "description": "Quantity-content-touch (Color/Button)" },
+            "btnCountColorDisabled":     { "value": "#E3E9EB", "type": "color", "description": "Quantity-content-disabled (Color/Button)" },
+
+            "paginationBgColor":             { "value": "transparent", "type": "color", "description": "Pagination-bg (Color/Button)" },
+            "paginationBgColorHover":        { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-hover (Color/Button)" },
+            "paginationBgColorTouch":        { "value": "#E3E9EB", "type": "color", "description": "Pagination-bg-touch (Color/Button)" },
+            "paginationBgColorActive":       { "value": "#7A297A", "type": "color", "description": "Pagination-bg-active (Color/Button)" },
+            "paginationBgColorDisabled":     { "value": "#F7F6F9", "type": "color", "description": "Pagination-bg-disabled (Color/Button)" },
+            "paginationBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke (Color/Button)" },
+            "paginationBorderColorHover":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-hover (Color/Button)" },
+            "paginationBorderColorTouch":    { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-touch (Color/Button)" },
+            "paginationBorderColorActive":   { "value": "#7A297A", "type": "color", "description": "Pagination-stroke-active (Color/Button)" },
+            "paginationBorderColorDisabled": { "value": "#E3E9EB", "type": "color", "description": "Pagination-stroke-disabled (Color/Button)" },
+            "paginationColor":               { "value": "#AD5CAD", "type": "color", "description": "Pagination-page (Color/Button)" },
+            "paginationColorHover":          { "value": "#993399", "type": "color", "description": "Pagination-page-hover (Color/Button)" },
+            "paginationColorTouch":          { "value": "#7A297A", "type": "color", "description": "Pagination-page-touch (Color/Button)" },
+            "paginationColorActive":         { "value": "#FFFFFF", "type": "color", "description": "Pagination-page-active (Color/Button)" },
+            "paginationColorDisabled":       { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" },
+            "paginationIconColor":           { "value": "#AD5CAD", "type": "color", "description": "Pagination-scrollbtn (Color/Button)" },
+            "paginationIconColorHover":      { "value": "#993399", "type": "color", "description": "Pagination-scrollbtn-hover (Color/Button)" },
+            "paginationIconColorTouch":      { "value": "#7A297A", "type": "color", "description": "Pagination-scrollbtn-touch (Color/Button)" },
+            "paginationIconColorDisabled":   { "value": "#948796", "type": "color", "description": "Pagination-page-disabled (Color/Button)" }
+        },
+
+        "selector": {
+            "switchBgColor":               { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default (Color/Selector)" },
+            "switchBgColorHover":          { "value": "#F7F6F9", "type": "color", "description": "Toggle-bg-default-hover (Color/Selector)" },
+            "switchBgColorTouch":          { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-default-touch (Color/Selector)" },
+            "switchBgColorActive":         { "value": "#AD5CAD", "type": "color", "description": "Toggle-bg-active (Color/Selector)" },
+            "switchBgColorActiveHover":    { "value": "#993399", "type": "color", "description": "Toggle-bg-active-hover (Color/Selector)" },
+            "switchBgColorActiveTouch":    { "value": "#7A297A", "type": "color", "description": "Toggle-bg-active-touch (Color/Selector)" },
+            "switchBgColorDisabled":       { "value": "#E3E9EB", "type": "color", "description": "Toggle-bg-disabled (Color/Selector)" },
+            "switchEllipseColor":          { "value": "#FFFFFF", "type": "color", "description": "Toggle-ellipse-active (Color/Selector)" },
+            "switchEllipseColorDisabled":  { "value": "#948796", "type": "color", "description": "Toggle-ellipse-disabled (Color/Selector)" },
+
+            "checkboxUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg (Color/Selector)" },
+            "checkboxUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Hover (Color/Selector)" },
+            "checkboxUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Unchecked-Bg-Touch (Color/Selector)" },
+            "checkboxUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Bg-Disabled (Color/Selector)" },
+            "checkboxUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Unchecked-Border (Color/Selector)" },
+            "checkboxUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "Checkbox-Unchecked-Border-Hover (Color/Selector)" },
+            "checkboxUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "Checkbox-Unchecked-Border-Touch (Color/Selector)" },
+            "checkboxUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "Checkbox-Unchecked-Border-Disabled (Color/Selector)" },
+            "checkboxCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg (Color/Selector)" },
+            "checkboxCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Hover (Color/Selector)" },
+            "checkboxCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "Checkbox-Checked-Bg-Touch (Color/Selector)" },
+            "checkboxCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Checkbox-Checked-Bg-Disabled (Color/Selector)" },
+            "checkboxCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border (Color/Selector)" },
+            "checkboxCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Border-Hover (Color/Selector)" },
+            "checkboxCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Border-Touch (Color/Selector)" },
+            "checkboxCheckedBorderColorDisabled":      { "value": "transparent", "type": "color", "description": "Checkbox-Checked-Border-Disabled (Color/Selector)" },
+            "checkboxCheckedIconColor":                { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon (Color/Selector)" },
+            "checkboxCheckedIconColorHover":           { "value": "#993399", "type": "color", "description": "Checkbox-Checked-Icon-Hover (Color/Selector)" },
+            "checkboxCheckedIconColorTouch":           { "value": "#7A297A", "type": "color", "description": "Checkbox-Checked-Icon-Touch (Color/Selector)" },
+            "checkboxCheckedIconColorDisabled":        { "value": "#948796", "type": "color", "description": "Checkbox-Checked-Icon-Disabled (Color/Selector)" },
+
+            "radioBtnUncheckedBgColor":                { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg (Color/Selector)" },
+            "radioBtnUncheckedBgColorHover":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Hover (Color/Selector)" },
+            "radioBtnUncheckedBgColorTouch":           { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Unchecked-Bg-Touch (Color/Selector)" },
+            "radioBtnUncheckedBgColorDisabled":        { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Bg-Disabled (Color/Selector)" },
+            "radioBtnUncheckedBorderColor":            { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Unchecked-Border (Color/Selector)" },
+            "radioBtnUncheckedBorderColorHover":       { "value": "#993399", "type": "color", "description": "RadioBtn-Unchecked-Border-Hover (Color/Selector)" },
+            "radioBtnUncheckedBorderColorTouch":       { "value": "#7A297A", "type": "color", "description": "RadioBtn-Unchecked-Border-Touch (Color/Selector)" },
+            "radioBtnUncheckedBorderColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Border-Disabled (Color/Selector)" },
+            "radioBtnUncheckedCircleColor":            { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle (Color/Selector)" },
+            "radioBtnUncheckedCircleColorHover":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Hover (Color/Selector)" },
+            "radioBtnUncheckedCircleColorTouch":       { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Touch (Color/Selector)" },
+            "radioBtnUncheckedCircleColorDisabled":    { "value": "transparent", "type": "color", "description": "RadioBtn-Unchecked-Circle-Disabled (Color/Selector)" },
+            "radioBtnCheckedBgColor":                  { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg (Color/Selector)" },
+            "radioBtnCheckedBgColorHover":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Hover (Color/Selector)" },
+            "radioBtnCheckedBgColorTouch":             { "value": "#FFFFFF", "type": "color", "description": "RadioBtn-Checked-Bg-Touch (Color/Selector)" },
+            "radioBtnCheckedBgColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Bg-Disabled (Color/Selector)" },
+            "radioBtnCheckedBorderColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border (Color/Selector)" },
+            "radioBtnCheckedBorderColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Border-Hover (Color/Selector)" },
+            "radioBtnCheckedBorderColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Border-Touch (Color/Selector)" },
+            "radioBtnCheckedBorderColorDisabled":      { "value": "#E3E9EB", "type": "color", "description": "RadioBtn-Checked-Border-Disabled (Color/Selector)" },
+            "radioBtnCheckedCircleColor":              { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle (Color/Selector)" },
+            "radioBtnCheckedCircleColorHover":         { "value": "#993399", "type": "color", "description": "RadioBtn-Checked-Circle-Hover (Color/Selector)" },
+            "radioBtnCheckedCircleColorTouch":         { "value": "#7A297A", "type": "color", "description": "RadioBtn-Checked-Circle-Touch (Color/Selector)" },
+            "radioBtnCheckedCircleColorDisabled":      { "value": "#948796", "type": "color", "description": "RadioBtn-Checked-Circle-Disabled (Color/Selector)" }
+        },
+
+        "package": {
+            "packageBgColor":             { "value": "#FFFFFF", "type": "color", "description": "Package-bg-default (Color/Package)" },
+            "packageBgColorHover":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-hover (Color/Package)" },
+            "packageBgColorTouch":        { "value": "#FFFFFF", "type": "color", "description": "Package-bg-touch (Color/Package)" },
+            "packageBoughtBgColor":       { "value": "#AD5CAD", "type": "color", "description": "Package-bought-bg-default (Color/Package)" },
+            "packageBoughtBgColorHover":  { "value": "#993399", "type": "color", "description": "Package-bought-bg-hover (Color/Package)" },
+            "packageBoughtBgColorTouch":  { "value": "#7A297A", "type": "color", "description": "Package-bought-bg-touch (Color/Package)" },
+            "packageBorderColor":         { "value": "#E3E9EB", "type": "color", "description": "Package-stroke-default (Color/Package)" },
+            "packageBorderColorHover":    { "value": "transparent", "type": "color", "description": "Package-stroke-hover (Color/Package)" },
+            "packageBorderColorTouch":    { "value": "transparent", "type": "color", "description": "Package-stroke-touch (Color/Package)" },
+            "packageBoughtBorderColor":   { "value": "transparent", "type": "color", "description": "Package-bought-stroke-default (Color/Package)" }
+        },
+
+        "notify": {
+            "notificatorTextColor":              { "value": "#333333", "type": "color", "description": "Цвет текста (Нотификатор)" },
+            "notificatorIconInfoColor":          { "value": "#333333", "type": "color", "description": "Цвет иконки в информационном нотификаторе (Нотификатор)" },
+            "notificatorIconSuccessColor":       { "value": "#68BA00", "type": "color", "description": "Цвет иконки в успешном нотификаторе (Нотификатор)" },
+            "notificatorIconErrorColor":         { "value": "#FF2222", "type": "color", "description": "Цвет иконки в нотификаторе с ошибкой (Нотификатор)" },
+            "notificatorInfoBgColor":            { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
+            "notificatorSuccessBgColor":         { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в успешном нотификаторе (Нотификатор)" },
+            "notificatorErrorBgColor":           { "value": "#FFFFFF", "type": "color", "description": "Цвет фона в информационном нотификаторе (Нотификатор)" },
+            "notificatorCloseIconColorHover":    { "value": "#993399", "type": "color", "description": "Цвет иконки закрытия при ховере (Нотификатор)" },
+            "notificatorCloseIconColorTouch":    { "value": "#7A297A", "type": "color", "description": "Цвет иконки закрытия при нажатии (Нотификатор)" }
+        },
+
+        "player": {
+            "playerModalBgColor":                    { "value": "#FFFFFF", "type": "color", "description": "Цвет фона (Модальный плеер)" },
+            "playerModalColor":                      { "value": "#333333", "type": "color", "description": "Цвет текста (Модальный плеер)" },
+            "playerModalColorDisabled":              { "value": "#948796", "type": "color", "description": "Цвет текста при загрузке мелодии (Модальный плеер)" },
+            "playerModalIconColor":                  { "value": "#333333", "type": "color", "description": "Цвет иконок (Модальный плеер)" },
+            "playerModalIconColorHover":             { "value": "#993399", "type": "color", "description": "Цвет иконок при наведении мышки (Модальный плеер)" },
+            "playerModalIconColorTouch":             { "value": "#7A297A", "type": "color", "description": "Цвет иконок при нажатии мышки (Модальный плеер)" },
+            "playerModalIconColorDisabled":          { "value": "#E3E9EB", "type": "color", "description": "Цвет иконок при загрузке (Модальный плеер)" },
+            "playerModalThumbColor":                 { "value": "#7A297A", "type": "color", "description": "Цвет овала на шкале прогресса (Модальный плеер)" },
+            "playerModalProgressBgColor":            { "value": "#E8EAEF", "type": "color", "description": "Цвет фона шкалы прогресса (Модальный плеер)" },
+            "playerModalProgressBgColorActive":      { "value": "#7A297A", "type": "color", "description": "Цвет фона шкалы загруженного прогресса (Модальный плеер)" },
+            "playerModalProgressBgColorLoading":     { "value": "#F7F6F9", "type": "color", "description": "Цвет фона шкалы прогресса во время загрузки (Модальный плеер)" },
+            "playerModalProgressBarColorLoading":    { "value": "#E8EAEF", "type": "color", "description": "Цвет баров шкалы прогресса во время загрузки (Модальный плеер)" }
+        }
     },
+
     "sizeParams": {
-        "sidebar/sidebarItemMargin":    { "value": "4", "type": "spacing", "description": "Sidebar-item (Margin/Navigation)" },
-        "sidebar/sidebarItemWidth":     { "value": "88", "type": "sizing", "description": "Ширина пункта (узкий вид) (Боковое меню)" },
-        "sidebar/sidebarItemXlWidth":   { "value": "176", "type": "sizing", "description": "Ширина пункта (широкий вид) (Боковое меню)" },
-        "sidebar/sidebarItemMinHeight": { "value": "56", "type": "sizing", "description": "Минимальная высота пункта (Боковое меню)" },
-
-        "notificator/notificatorHeight":        { "value": "56", "type": "sizing", "description": "Высота уведомления (Нотификатор)" },
-        "notificator/notificatorWidth":         { "value": "fill", "type": "sizing", "description": "Ширина уведомления (Нотификатор)" },
-        "notificator/notificatorMarginTop":     { "value": "40", "type": "spacing", "description": "Отступ сверху (Нотификатор)" },
-        "notificator/notificatorPadding":       { "value": "16", "type": "spacing", "description": "Внутренний отступ (Нотификатор)" },
-        "notificator/notificatorCloseBorderLeft": {
-            "width": { "value": "1", "type": "spacing", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" },
-            "color": { "value": "#E6E6E9", "type": "color", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" }
+        "sidebar": {
+            "sidebarItemMargin":    { "value": "4", "type": "spacing", "description": "Sidebar-item (Margin/Navigation)" },
+            "sidebarItemWidth":     { "value": "88", "type": "sizing", "description": "Ширина пункта (узкий вид) (Боковое меню)" },
+            "sidebarItemXlWidth":   { "value": "176", "type": "sizing", "description": "Ширина пункта (широкий вид) (Боковое меню)" },
+            "sidebarItemMinHeight": { "value": "56", "type": "sizing", "description": "Минимальная высота пункта (Боковое меню)" }
         },
-        "notificator/notificatorOffsetLeft":    { "value": "0", "type": "spacing", "description": "Отступ слева на узком экране (Нотификатор)" },
-        "notificator/notificatorXlOffsetLeft":  { "value": "0", "type": "spacing", "description": "Отступ справа на широком экране (Нотификатор)" },
 
-        "button/btnMaxWidth":  { "value": "236", "type": "sizing", "description": "Максимальная ширина (Кнопки)" },
-        "button/btnPadding":   {
-            "vertical":   { "value": "0", "type": "spacing", "description": "Внутренние отступы (Верхний и нижний) (Кнопки)" },
-            "horizontal": { "value": "16", "type": "spacing", "description": "Максимальная ширина (Левый и правый) (Кнопки)" }
+        "notify": {
+            "notificatorHeight":        { "value": "56", "type": "sizing", "description": "Высота уведомления (Нотификатор)" },
+            "notificatorWidth":         { "value": "fill", "type": "sizing", "description": "Ширина уведомления (Нотификатор)" },
+            "notificatorMarginTop":     { "value": "40", "type": "spacing", "description": "Отступ сверху (Нотификатор)" },
+            "notificatorPadding":       { "value": "16", "type": "spacing", "description": "Внутренний отступ (Нотификатор)" },
+            "notificatorCloseBorderLeft": {
+                "width": { "value": "1", "type": "spacing", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" },
+                "color": { "value": "#E6E6E9", "type": "color", "description": "Разделитель секции закрытия нотификатора (Нотификатор)" }
+            },
+            "notificatorOffsetLeft":    { "value": "0", "type": "spacing", "description": "Отступ слева на узком экране (Нотификатор)" },
+            "notificatorXlOffsetLeft":  { "value": "0", "type": "spacing", "description": "Отступ справа на широком экране (Нотификатор)" }
         },
-        "button/btnCountSize": { "value": "40", "type": "spacing", "description": "Размер кнопки кол-ва (+,-) (Кнопки)" },
 
-        "navigation/breadcrumbDividerMargin":      { "value": "8", "type": "spacing", "description": "Отступ от разделителя в хлебных крошках (Юзербар)" },
-        "pagination/paginationItemBorderWidth":    { "value": "1", "type": "sizing", "description": "Толщина обводки страницы (Пагинация)" },
-        "pagination/paginationItemMarginRight":    { "value": "0", "type": "spacing", "description": "Отступ справа для страницы (Пагинация)" },
-        "pagination/paginationAngleMargin":        { "value": "8", "type": "spacing", "description": "Отступ от стрелок (Пагинация)" },
+        "button": {
+            "btnMaxWidth":  { "value": "236", "type": "sizing", "description": "Максимальная ширина (Кнопки)" },
+            "btnPadding":   {
+                "vertical":   { "value": "0", "type": "spacing", "description": "Внутренние отступы (Верхний и нижний) (Кнопки)" },
+                "horizontal": { "value": "16", "type": "spacing", "description": "Максимальная ширина (Левый и правый) (Кнопки)" }
+            },
+            "btnCountSize": { "value": "40", "type": "spacing", "description": "Размер кнопки кол-ва (+,-) (Кнопки)" },
 
-        "player/playerModalProgressBarHeight":  { "value": "4", "type": "sizing", "description": "Высота шкалы прогресса (Модальный плеер)" },
-        "player/playerModalProgressBarWidth":   { "value": "270", "type": "sizing", "description": "Ширина шкалы прогресса (Модальный плеер)" },
-        "player/playerModalThumbSize":          { "value": "0", "type": "sizing", "description": "Размер овала на шкале прогресса (Модальный плеер)" },
-        "player/playerModalThumbSizeActive":    { "value": "16", "type": "sizing", "description": "Размер овала на шкале прогресса при наведении мышки (Модальный плеер)" },
-        "player/playerModalTriangleLeft":       { "value": "64", "type": "spacing", "description": "Смещение стрелки слева (Модальный плеер)" }
+            "paginationItemBorderWidth":    { "value": "1", "type": "sizing", "description": "Толщина обводки страницы (Пагинация)" },
+            "paginationItemMarginRight":    { "value": "0", "type": "spacing", "description": "Отступ справа для страницы (Пагинация)" },
+            "paginationAngleMargin":        { "value": "8", "type": "spacing", "description": "Отступ от стрелок (Пагинация)" }
+        },
+
+        "navigation": {
+            "breadcrumbDividerMargin":      { "value": "8", "type": "spacing", "description": "Отступ от разделителя в хлебных крошках (Юзербар)" }
+        },
+
+        "player": {
+            "playerModalProgressBarHeight":  { "value": "4", "type": "sizing", "description": "Высота шкалы прогресса (Модальный плеер)" },
+            "playerModalProgressBarWidth":   { "value": "270", "type": "sizing", "description": "Ширина шкалы прогресса (Модальный плеер)" },
+            "playerModalThumbSize":          { "value": "0", "type": "sizing", "description": "Размер овала на шкале прогресса (Модальный плеер)" },
+            "playerModalThumbSizeActive":    { "value": "16", "type": "sizing", "description": "Размер овала на шкале прогресса при наведении мышки (Модальный плеер)" },
+            "playerModalTriangleLeft":       { "value": "64", "type": "spacing", "description": "Смещение стрелки слева (Модальный плеер)" }
+        }
     },
     "boxShadows": {
-        "shadowElevated": {
-            "value": [
-                {
+        "main": {
+            "shadowElevated": {
+                "value": [
+                    {
+                        "color": "#49565D1F",
+                        "type": "dropShadow",
+                        "x": 0,
+                        "y": 0,
+                        "blur": 2,
+                        "spread": 0
+                    },
+                    {
+                        "color": "#49565D1F",
+                        "type": "dropShadow",
+                        "x": 0,
+                        "y": 4,
+                        "blur": 12,
+                        "spread": 0
+                    }
+                ],
+                "type": "boxShadow",
+                "description": "Elevated (Effects/Main)"
+            },
+            "shadowElevatedHeavy": {
+                "value": {
                     "color": "#49565D1F",
                     "type": "dropShadow",
                     "x": 0,
-                    "y": 0,
-                    "blur": 2,
+                    "y": 15,
+                    "blur": 30,
+                    "spread": 0
+                },
+                "type": "boxShadow",
+                "description": "Elevated heavy (Effects/Main)"
+            }
+        },
+
+        "button": {
+            "btnPrimaryShadow": { "value": [], "type": "boxShadow", "description": "Primary (Effects/Button)" },
+            "btnPrimaryShadowHover": { "value": [], "type": "boxShadow", "description": "Primary - hover (Effects/Button)" },
+            "btnSecondaryShadow": { "value": [], "type": "boxShadow", "description": "Secondary (Effects/Button)" },
+            "btnSecondaryShadowHover": { "value": [], "type": "boxShadow", "description": "Secondary - hover (Effects/Button)" },
+            "btnCriticalShadow": { "value": [], "type": "boxShadow", "description": "Critical (Effects/Button)" },
+            "btnCriticalShadowHover": { "value": [], "type": "boxShadow", "description": "Critical - hover (Effects/Button)" },
+
+            "timepickerArrowShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Timepicker)" }
+        },
+
+        "selector": {
+            "switchShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" },
+            "switchCircleShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" }
+        },
+
+        "player": {
+            "playerModalShadow": { "value": [
+                {
+                    "color": "rgba(43, 83, 155, 0.16)",
+                    "type": "dropShadow",
+                    "x": 0,
+                    "y": 12,
+                    "blur": 36,
                     "spread": 0
                 },
                 {
-                    "color": "#49565D1F",
+                    "color": "rgba(43, 83, 155, 0.08)",
                     "type": "dropShadow",
                     "x": 0,
                     "y": 4,
-                    "blur": 12,
+                    "blur": 8,
                     "spread": 0
                 }
-            ],
-            "type": "boxShadow",
-            "description": "Elevated (Effects/Main)"
+            ], "type": "boxShadow", "description": "Shadow (Effects/Player-modal)" }
         },
-        "shadowElevatedHeavy": {
-            "value": {
-                "color": "#49565D1F",
-                "type": "dropShadow",
-                "x": 0,
-                "y": 15,
-                "blur": 30,
-                "spread": 0
-            },
-            "type": "boxShadow",
-            "description": "Elevated heavy (Effects/Main)"
-        },
-        "btnPrimaryShadow": { "value": [], "type": "boxShadow", "description": "Primary (Effects/Button)" },
-        "btnPrimaryShadowHover": { "value": [], "type": "boxShadow", "description": "Primary - hover (Effects/Button)" },
-        "btnSecondaryShadow": { "value": [], "type": "boxShadow", "description": "Secondary (Effects/Button)" },
-        "btnSecondaryShadowHover": { "value": [], "type": "boxShadow", "description": "Secondary - hover (Effects/Button)" },
-        "btnCriticalShadow": { "value": [], "type": "boxShadow", "description": "Critical (Effects/Button)" },
-        "btnCriticalShadowHover": { "value": [], "type": "boxShadow", "description": "Critical - hover (Effects/Button)" },
-        "switchShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" },
-        "switchCircleShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Toggle)" },
-        "timepickerArrowShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Timepicker)" },
-        "playerModalShadow": { "value": [
-            {
-                "color": "rgba(43, 83, 155, 0.16)",
-                "type": "dropShadow",
-                "x": 0,
-                "y": 12,
-                "blur": 36,
-                "spread": 0
-            },
-            {
-                "color": "rgba(43, 83, 155, 0.08)",
-                "type": "dropShadow",
-                "x": 0,
-                "y": 4,
-                "blur": 8,
-                "spread": 0
+
+        "sidebar": {
+            "sidebarShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Sidebar)" },
+            "sidebarItemShadowActive": {
+                "value": {
+                    "color": "#C9C1C945",
+                    "type": "dropShadow",
+                    "x": 0,
+                    "y": 3,
+                    "blur": 10,
+                    "spread": 0
+                },
+                "type": "boxShadow",
+                "description": "Тень активного пункта (Боковое меню)"
             }
-        ], "type": "boxShadow", "description": "Shadow (Effects/Player-modal)" },
-        "sidebarShadow": { "value": [], "type": "boxShadow", "description": "Shadow (Effects/Sidebar)" },
-        "sidebarItemShadowActive": {
-            "value": {
-                "color": "#C9C1C945",
-                "type": "dropShadow",
-                "x": 0,
-                "y": 3,
-                "blur": 10,
-                "spread": 0
-            },
-            "type": "boxShadow",
-            "description": "Тень активного пункта (Боковое меню)"
         },
-        "notificatorBoxShadow": {
-            "value": {
-                "color": "#2E519B1E",
-                "type": "dropShadow",
-                "x": 0,
-                "y": 15,
-                "blur": 30,
-                "spread": 0
-            },
-            "type": "boxShadow",
-            "description": "Тени (Нотификатор)"
+
+        "notify": {
+            "notificatorBoxShadow": {
+                "value": {
+                    "color": "#2E519B1E",
+                    "type": "dropShadow",
+                    "x": 0,
+                    "y": 15,
+                    "blur": 30,
+                    "spread": 0
+                },
+                "type": "boxShadow",
+                "description": "Тени (Нотификатор)"
+            }
         }
     }
 }
